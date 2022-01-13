@@ -14,10 +14,10 @@ const TesCards = () => {
   return (
     <div className="tes-card" id="containe">
       <button onClick={Leftscrol} className="tes-btn">
-        <FaArrowLeft size={45} />
+        <FaArrowLeft size={22.5} />
       </button>
       <button onClick={Rightscrol} className="tes-btn1">
-        <FaArrowRight size={45} />
+        <FaArrowRight size={22.5} />
       </button>
 
       <Tescards

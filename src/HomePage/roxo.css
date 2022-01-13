@@ -1,0 +1,40 @@
+.roxo-main-style {
+  display: flex;
+  flex-direction: row;
+}
+.roxo-text-section {
+  color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-style-roxo {
+  max-width: 300px;
+}
+.roxo-image-section {
+  padding: 20px 80px;
+}
+.coin-image-style {
+  /* display: flex; */
+}
+@media screen and (max-width: 400px) {
+  .roxo-main-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .roxo-text-section {
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .roxo-main-style {
+    display: flex;
+    flex-direction: column;
+  }
+  .roxo-text-section {
+    padding: 0px 0px;
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import logoPic from "../Assests/25.png";
@@ -6,8 +6,14 @@ import coinPic from "../Assests/3.png";
 import { FaBloggerB, FaDiscord, FaTwitter, FaTelegramPlane } from "react-icons/fa";
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
+import Logo from "../Assests/25.png"
+
 
 const Header = () => {
+  const[user, setUser]= useState({
+    email:"",
+    password:""
+})
     const slideOpen = () => {
         document.getElementById("mySidebar").style.display = "block";
       };
@@ -51,9 +57,10 @@ const Header = () => {
             <Link>Contact Us</Link>
           </div>
         </Link>
-        <Link  to="/login">
-          <button>GAME EARNINGS</button>
-        </Link>
+        {/* <Link  to="/login"> */}
+          <button  data-bs-toggle="modal"
+    data-bs-target="#exampleModal">GAME EARNINGS</button>
+        {/* </Link> */}
       </div>
       <div className="header-nav-sml col 12">
         <Link>
@@ -123,6 +130,64 @@ const Header = () => {
             </Link>
           </div>          
         </div>
+        {/* ---------------------Modal----------- */}
+        <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+          
+          <div class="modal-body">
+          <div className="login-form-style-roxo">
+    <div className="col-md-6 login-text">
+        <h4 className="login-form-heading">  Welcome to ROXO </h4>
+        <img className="login-image" src={Logo} alt="logologin" height="200px" width="200px"/>
+       <div className="logo-bottom-text">
+
+        </div>
+     <Link >   <button className="register-button-loginForm">Sign Up!</button> </Link>
+      </div>
+    <div className="col-md-6" >
+         
+           <div> <h3 className="login-fields-heading">Login to your Account</h3></div>
+       <div className="login-input-fiedls"> 
+          <input className="input-email-login" type="email" placeholder="Email" value={user.email} onChange={(e)=>{
+              setUser({...user, email:e.target.value})
+          }} /> <br/>
+          <input className="input-password-login" type="password" placeholder="Password" value={user.password} onChange={(e)=>{
+              setUser({...user, password:e.target.value})
+          }} /></div>
+          <br/>
+          <button  className="login-button-style" >Login</button>
+        
+        <div className="forget-password">  <p>Forgot Password</p></div>
+          <p className="have-account">
+            Don’t you have an account?
+            </p>
+            <p className="register-now"><Link > Register Now! </Link>
+            </p>
+            <p className="bottom-text-login">It’s really simple
+            become part of ROXO Network!
+          </p>
+          
+        </div>
+
+    </div>
+
+
+
+        </div>
+          </div>
+       
+      
+        </div>
+      </div>
+      {/* ------------------------------ */}
     </div>
   );
 };

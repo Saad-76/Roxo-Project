@@ -253,3 +253,59 @@
         box-shadow: 2px 2px 2px 2px grey;
       }
 }
+
+/* ------------------------------------------------------------- */
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 500px;
+  pointer-events: auto;
+  /* background-color: transparent ; */
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 5rem;
+
+}
+  
+  .modal-dialog {
+  max-width: 500px;
+  margin-left: 18%;
+}
+
+
+.btn-style{
+font-size: large;
+font-weight: bold; 
+padding: 4px 8px;
+}
+.Verticle-scroller{
+height:40%;
+width: 100%;
+overflow-y: scroll;
+background-color: white
+}
+.login-form-style-roxo{
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+.modal-deals-style{
+width: auto;
+
+}
+.Verticle-scroller{
+height:40%;
+padding-left: 200px;
+overflow-y: scroll;
+background-color: white
+}
+}

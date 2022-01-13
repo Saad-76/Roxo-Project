@@ -7,6 +7,7 @@ import Roxo from "./roxo"
 import Vision from "./vision"
 import Video from "./video"
 import Play from "./play"
+import TesCards from "./TesCards"
 // import Footer from "./footer"
 
 
@@ -16,6 +17,7 @@ const HomePage=()=> {
         <div className="background-color-main">
             <Header/>
             <Slider/>
+            <TesCards/>
             <Games/>
             <Roxo/>
             <Vision/>

@@ -11,16 +11,16 @@ import "./slider.css"
 const Slider=()=> {
     return (
         <div>
-      <div className="container carousel-style">
+      <div className=" carousel-style">
         <div className="bg-color ">
           <Carousel>
-            <Carousel.Item>
+            {/* <Carousel.Item>
               <img
                 className="d-block image-height  w-100"
                 src={Render11}
                 alt="First slide"
               />
-            </Carousel.Item>
+            </Carousel.Item> */}
             <Carousel.Item>
               <img
                 className="d-block image-height   w-100"

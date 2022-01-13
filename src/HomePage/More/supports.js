@@ -4,7 +4,8 @@ import "./careers.css"
 const Supports=()=> {
     return (
         <div>
-            
+                        <h1>Support WebPage</h1>
+
         </div>
     )
 }

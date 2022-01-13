@@ -4,7 +4,8 @@ import "./careers.css"
 const WhitePaper=()=> {
     return (
         <div>
-            
+                        <h1>White Paper WebPage</h1>
+
         </div>
     )
 }

@@ -2,18 +2,127 @@
     display: flex;
     flex-direction: row;
 }
+.vision-image-style img{
+    height: 300px;
+    width: 700px;
+
+
+}
+.vision-style{
+    padding:50px 0;
+}
 .vision-image-style{
-    padding: 20px 80px;
+    padding: 18px 116px;
 
 }
 .vision-text-style{
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 6%;
+    padding-top: 4%;
+    font-family: Helvetica, Arial, sans-serif;
+
 }
 .vision-text-data-style{
 max-width: 300px;
+padding-top: 20px;
 }
+.visiion-upper-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+@media screen and (max-width: 1240px) {
+   
+    .vision-text-style{
+        padding: 0px 0px;
+    }
+    .vision-image-style img{
+        height: 300px;
+        width: 500px;
+    }
+    .vision-text-style{
+        display: flex;
+        flex-direction: column;
+align-items: flex-end;
+        padding-right: 6%;
+        padding-top: 4%;
+    }
+  }
+  @media screen and (max-width: 1180px) {
+   
+    .vision-text-style{
+        padding: 0px 0px;
+    }
+    .vision-image-style img{
+        height: 300px;
+        width: 400px;
+    }
+    .vision-text-style{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 6%;
+        padding-top: 4%;
+        padding-left: 4%;
+    }
+  }
+  @media screen and (max-width: 1120px) {
+   
+    .vision-text-style{
+        padding: 18px 67px;
+    }
+    .vision-image-style img{
+        height: 300px;
+        width: 400px;
+    }
+    .vision-text-style{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 6%;
+        padding-top: 4%;
+    }
+  }
+  @media screen and (max-width: 930px) {
+   
+   
+    .vision-image-style {
+        padding: 18px 70px;
+
+    }
+    .vision-text-style{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 6%;
+        padding-top: 4%;
+    }
+  }
+  @media screen and (max-width: 852px) {
+   
+    .vision-text-style{
+        padding: 0px 12px;
+    }
+    .vision-image-style img{
+        align-items: center;
+        height: 300px;
+        width: 300px;
+    }
+    .vision-text-style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding-right: 6%; */
+        /* padding-top: 4%; */
+    }
+  }
+
+
 
 @media screen and (max-width: 800px) {
     .vision-main-style{

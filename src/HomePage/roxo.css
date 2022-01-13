@@ -10,6 +10,7 @@
 }
 .text-style-roxo {
   max-width: 300px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .roxo-image-section {
   padding: 20px 80px;
@@ -17,6 +18,10 @@
 .coin-image-style {
   /* display: flex; */
 }
+.roxo-style{
+  padding:50px 0;
+}
+
 @media screen and (max-width: 400px) {
   .roxo-main-style {
     display: flex;
@@ -36,5 +41,9 @@
   }
   .roxo-text-section {
     padding: 0px 0px;
+  }
+  .roxo-image-section img{
+    height: 300px;
+    width: 300px;
   }
 }

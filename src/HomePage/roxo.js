@@ -7,6 +7,7 @@ import "./roxo.css";
 const Roxo = () => {
   return (
     <div>
+      <div className="roxo-style">
       <div className="col-md-12 roxo-main-style">
         <div className="col-md-6 roxo-text-section">
           <img className="coin-image-style" src={Coin} alt="coin" height="150px" width="150px" />
@@ -19,9 +20,13 @@ const Roxo = () => {
           </p>
         </div>
         <div className="col-md-6 roxo-image-section">
-          <img src={roxo} alt="roxo" height="300px" width="300px" />
+          
+          <img   src={roxo} alt="roxo" height="300px" width="400px" />
+    
         </div>
       </div>
+      </div>
+
     </div>
   );
 };

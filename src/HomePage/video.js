@@ -5,7 +5,6 @@ import Crypto33 from "../Assests/Crypto33.mp4"
 const Video=()=> {
     return (
         <div>
-                        <h1>Video</h1>
                         <video
         className="video_section-style"
         src={Crypto33}

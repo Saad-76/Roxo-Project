@@ -3,12 +3,12 @@ import "./header.css";
 import { Link } from "react-router-dom";
 import logoPic from "../Assests/25.png";
 import coinPic from "../Assests/3.png";
-import {
-  FaBloggerB,
-  FaDiscord,
-  FaTwitter,
-  FaTelegramPlane,
-} from "react-icons/fa";
+
+import  blogIcon  from "../Assests/3D-ICONS/Blog Icon/bloger 256.png";
+import  discordIcon  from "../Assests/3D-ICONS/Discord icon/main 256.png";
+import  teleIcon  from "../Assests/3D-ICONS/Telegram/main 256.png";
+import twitterIcon  from "../Assests/3D-ICONS/Twitter Icon/main 256.png";
+
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
 import Logo from "../Assests/3.png";
@@ -30,7 +30,7 @@ const Header = () => {
       <div className="header-nav col-md-12">
         <Link>
           <div className="logo-head">
-            <img src={logoPic} height="50px"></img>
+            <img src={logoPic} height="70px"></img>
             <h5>ROXO</h5>
           </div>
         </Link>
@@ -38,30 +38,19 @@ const Header = () => {
         <Link>NEWS</Link>
         <Link>
           <div className="coin-logo">
-            <img src={coinPic} height="50px"></img>
+            <img src={coinPic} height="70px"></img>
             <p>$0.0025</p>
           </div>
         </Link>
         <Link className="dropbtn">
           OUR COMMUNITY <AiFillCaretDown size={10} />
           <div class="dropdown-content">
-            <Link>
-              {" "}
-              <FaBloggerB size={20} />
-              Blog
-            </Link>
-            <Link>
-              <FaDiscord size={20} />
-              Discord
-            </Link>
-            <Link>
-              <FaTwitter size={20} />
-              Twitter
-            </Link>
-            <Link>
-              <FaTelegramPlane size={20} />
-              Telegran
-            </Link>
+
+            <Link> <img src={blogIcon} height="20px"/>Blog</Link>
+            <Link><img src={discordIcon} height="20px"/>Discord</Link>
+            <Link><img src={twitterIcon} height="20px"/>Twitter</Link>
+            <Link><img src={teleIcon} height="20px"/>Telegran</Link>
+
           </div>
         </Link>
         <Link className="dropbtn1">
@@ -117,30 +106,19 @@ const Header = () => {
           <Link className="nav-links-1 single " id="target2" href="#tools">
             <AiFillCaretLeft size={15} />
             <div class="dropdown-content">
-              <Link>
-                {" "}
-                <FaBloggerB size={20} />
-                Blog
-              </Link>
-              <Link>
-                <FaDiscord size={20} />
-                Discord
-              </Link>
-              <Link>
-                <FaTwitter size={20} />
-                Twitter
-              </Link>
-              <Link>
-                <FaTelegramPlane size={20} />
-                Telegran
-              </Link>
-            </div>
-            <p>OUR COMMUNITY</p>
-          </Link>
-        </div>
-        <div className="slide-down">
-          <Link className="nav-links-2 single" id="target3" href="#news">
-            <AiFillCaretLeft size={15} />
+
+            <Link> <img src={blogIcon} height="20px"/>Blog</Link>
+            <Link><img src={discordIcon} height="20px"/>Discord</Link>
+            <Link><img src={twitterIcon} height="20px"/>Twitter</Link>
+            <Link><img src={teleIcon} height="20px"/>Telegran</Link>
+          </div>
+              <p>OUR COMMUNITY</p>
+            </Link>
+          </div>
+          <div className="slide-down">
+            <Link className="nav-links-2 single" id="target3" href="#news">
+            <AiFillCaretLeft size={15}/>
+
             <div class="dropdown-content1">
               <Link>Support</Link>
               <Link>Careers</Link>

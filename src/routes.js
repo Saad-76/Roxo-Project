@@ -10,7 +10,8 @@ const  Routes= ()=> {
 <Router>
 <Route path="/homepage" component={HomePage}>  < HomePage/>  </Route>  
 <Route path="/signUp" component={SignUp}>  < SignUp/>  </Route>   
-<Route path="/Login" component={Login}>  < Login/>  </Route>   
+<Route path="/login" component={Login}>  < Login/>  </Route>   
+
 
 
 <Redirect exact  to="/homepage"/>

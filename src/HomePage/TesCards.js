@@ -22,36 +22,36 @@ const TesCards = () => {
 
       <Tescards
         tesicon={<img src={Quotepic }  height='150px'/>}
-        tesheading="Njoki Githua"
-        tesheading1="Reviewed Kenya Exports"
+        tesheading="Temple Game"
+        tesheading1="Reviewed "
         testext="Very convenient and reliable, got my
           stuff on time and in perfect
           condition.Thank you kenya exports"
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
-        tesheading="Masha Salim"
-        tesheading1="Reviewed Kenya Exports"
+        tesheading="Running Game"
+        tesheading1="Reviewed "
         testext="Very efficient and reliable team kenex
           exports guys are,keep up the gud job."
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
-        tesheading="Mukami Kigamba"
-        tesheading1="Reviewed Kenya Exports"
+        tesheading="Sa Game"
+        tesheading1="Reviewed "
         testext="Efficient and reliable service keep it up
           guys."
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
-        tesheading="Lillian Munyui"
-        tesheading1="Reviewed Kenya Exports"
+        tesheading="Data Game"
+        tesheading1="Reviewed "
         testext="Reliable and friendly you are the best."
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
-        tesheading="Sally Wanjiru"
-        tesheading1="Reviewed Kenya Exports"
+        tesheading="Fighting Game"
+        tesheading1="Reviewed "
 
         testext="I highly recommend this to people
           who has never used them.  Try them &

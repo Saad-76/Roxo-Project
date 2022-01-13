@@ -20,6 +20,9 @@ const SignUp = () => {
             setUser({ ...user, name: e.target.value });
           }}
         />
+        <br/>
+        <br/>
+
         <input
           type="email"
           placeholder="Email"
@@ -28,6 +31,9 @@ const SignUp = () => {
             setUser({ ...user, email: e.target.value });
           }}
         />
+                <br/>
+                <br/>
+
         <input
           type="password"
           placeholder="name"
@@ -36,6 +42,9 @@ const SignUp = () => {
             setUser({ ...user, password: e.target.value });
           }}
         />
+                <br/>
+                <br/>
+
         <button>Sign Up</button>
       </form>
     </div>

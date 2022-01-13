@@ -51,7 +51,7 @@ const Header = () => {
             <Link>Contact Us</Link>
           </div>
         </Link>
-        <Link>
+        <Link  to="/login">
           <button>GAME EARNINGS</button>
         </Link>
       </div>
@@ -116,7 +116,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="slide-down">
-            <Link className="nav-links single " href="#partners">
+            <Link className="nav-links single " to="/login">
               {" "}
 
               <p>GAME EARNINGS</p>{" "}

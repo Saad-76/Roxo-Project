@@ -194,7 +194,7 @@
   display: block;
   width: 40%;
   position: absolute;
-  top: 135px;
+  top: 150px;
   background-color: #ffffff;
   color: #1c1e21;
   z-index: 3;
@@ -210,7 +210,7 @@
   display: block;
   width: 40%;
   position: absolute;
-  top: 185px;
+  top: 200px;
   background-color: #ffffff;
   color: #1c1e21;
   right: 100%;
@@ -218,7 +218,7 @@
   z-index: 3;
 }
 .slide-down-1{
-  background-color: #cc4b4b8e ;
+  background-color: #3107072c ;
   font-weight: 1000;
 }
 /* .dropdown-content1 a{

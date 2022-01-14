@@ -7,8 +7,8 @@
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-  border-bottom: 1px solid gray;
-  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.6) 0px 30px 60px -20px;
 }
 .header-nav a {
   color: #1c1e21;
@@ -44,6 +44,9 @@
   text-decoration: none;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.drop-btn1{
+  min-width: 160px;
 }
 
 .dropdown-content a:hover {
@@ -234,7 +237,7 @@
 
 } */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .header-nav {
     display: none;
   }
@@ -266,7 +269,7 @@
 }
 
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
     .slides {
         width: 40%;
         position: absolute;

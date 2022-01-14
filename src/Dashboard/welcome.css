@@ -13,5 +13,14 @@
     
 }
 .welcome-container{
-    padding: 0px 200px;
+    padding: 30px 200px;
+}
+.welcome-background-color{
+    /* margin-top: 40px; */
+    background-color: #e4e6eb ;
+}
+.welcome-images-inner{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
 }

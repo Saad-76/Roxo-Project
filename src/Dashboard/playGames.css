@@ -24,9 +24,11 @@
     width: 100%;
 }
 .style-card{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:30%;
     height: 40vh;
+    background-color: #e4e6eb ;
+
 
 }
 .inner-card-two{
@@ -40,5 +42,5 @@ justify-content: space-between;
     justify-content: space-between;
 }
 .playGames-container{
-    padding: 50px 12px;
+    padding: 20px 12px;
 }

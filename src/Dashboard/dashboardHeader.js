@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from "../Assests/25.png"
 import {FiSettings} from "react-icons/fi"
 import "./dashboardHeader.css";
+import {Link } from "react-router-dom"
 const  DashboardHeader=()=> {
     return (
         
@@ -10,7 +11,8 @@ const  DashboardHeader=()=> {
             <h5>ROXO</h5></div>
       <div className='header-dash-setting'>< FiSettings size={35}/>
       <h6>User Name</h6>
-      <button >Log out</button></div>
+      <button >  <Link to="/homepage"> Log out </Link></button>
+      </div>
     </div>
        
     )

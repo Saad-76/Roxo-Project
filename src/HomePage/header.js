@@ -29,7 +29,7 @@ const Header = () => {
     if (user.name !== "" && user.email !== "" && user.rollNumber !== "") {
 
       // setUserArr([...userArr, user]);
-      setUser({ name: "", email: "", rollNumber: "" });
+      setUser({ email: "", password: ""});
       setError({ error, formError: "" });
 
 

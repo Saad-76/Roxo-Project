@@ -253,6 +253,14 @@
     display: flex;
    
   }
+  .dropdown-content1 img{
+    margin-right: 10px !important;
+  }
+  .dropdown-content1 a{
+    display: flex;
+   
+  }
+  
 }
 
 

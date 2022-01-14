@@ -26,3 +26,16 @@
 .roxo-style{
   padding: 35px 0;
 }
+@media only screen and (max-width: 900px){
+  .roxo-main-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+  }
+  .roxo-image-section{
+    margin-top: 40px;
+
+  }
+}

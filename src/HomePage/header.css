@@ -307,32 +307,90 @@ font-size: large;
 font-weight: bold; 
 padding: 4px 8px;
 }
-
+.login-image-side{
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
 .login-form-style-roxo{
   display: flex;
   flex-direction: row;
 }
 
 .input-email-login{
-
-  padding: 4px 18px;
+  margin-top: 8%;
+  padding: 6px 18px;
   /* margin: 4% 0; */
   color: #1c1e21;
-
   background-color: #e4e6eb;
-  border:none;
+  border: none;
   border-radius: 12px;
+  width: 100%;
 
 }
 .input-password-login{
-margin: 18px 0px;
-  padding: 4px 18px;
+  margin: 18px 0px;
+    padding: 6px 18px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+
+}
+.login-form-display{
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.register-button-loginForm{
+  margin: 2px 2px;
+  padding: 6px 18px;
+  /* margin: 4% 0; */
+  color: #1c1e21;
+  border-radius: 12px;
+  width: 100%;
+
+  background-color: #e4e6eb;
+  border:none;
+}
+/* .login-form-heading{
+  margin: 2px 25px;
+} */
+.login-button-style{
+  margin-top: 4%;
+  padding: 6px 18px;
+
+  width: 100%;
+  border-radius: 12px;
   /* margin: 4% 0; */
   color: #1c1e21;
 
   background-color: #e4e6eb;
   border:none;
-  border-radius: 12px;
+
+
+}
+.modal-open{
+  overflow: visible !important;
+  padding-right: 0px !important;
+
+}
+.forget-password {
+  font-size: 14px;
+  /* padding: 2px 60px; */
+}
+
+.have-account {
+  font-size: 14px;
+  /* padding: 0px 40px; */
+  margin: 0;
+}
+.register-now{
+  padding: 0px 70px;
 
 }
 

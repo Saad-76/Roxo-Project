@@ -1,0 +1,17 @@
+.welcome-images-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    
+}
+.welcome-container{
+    padding: 0px 200px;
+}

@@ -12,7 +12,7 @@ import TesCards from "./TesCards"
 
 const HomePage=()=> {
     return (
-        <div className="background-color-main">
+        <div className="background-color-main" >
             <Header/>
             <Slider/>
             <TesCards/>

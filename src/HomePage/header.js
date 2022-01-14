@@ -132,7 +132,7 @@ const Header = () => {
         </div>
         {/* ---------------------Modal----------- */}
         <div
-      class="modal fade"
+      class="modal fade "
       id="exampleModal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
@@ -150,7 +150,7 @@ const Header = () => {
        <div className="logo-bottom-text">
 
         </div>
-     <Link >   <button className="register-button-loginForm">Sign Up!</button> </Link>
+     <Link to="/signUp">   <button className="register-button-loginForm">Sign Up!</button> </Link>
       </div>
     <div className="col-md-6" >
          
@@ -169,7 +169,7 @@ const Header = () => {
           <p className="have-account">
             Don’t you have an account?
             </p>
-            <p className="register-now"><Link > Register Now! </Link>
+            <p className="register-now"><Link to="/signUp"> Register Now! </Link>
             </p>
             <p className="bottom-text-login">It’s really simple
             become part of ROXO Network!

@@ -11,9 +11,9 @@ const SignUp = () => {
     password: "",
   });
   return (
-    // <div className="background-color-signup">
+    <div className="background-color-signup">
 
-    <div>
+ 
       <div className="signup-form-style">
       <div className="col-md-12 row login-divs">
         <div className="col-md-6 signup-image-side">
@@ -79,9 +79,9 @@ const SignUp = () => {
           </p>
         </div>
       </div>
-      </div>
+    
       
-      {/* </div> */}
+      </div>
 
     </div>
   );

@@ -18,6 +18,23 @@ const Header = () => {
     email: "",
     password: "",
   });
+  const [error, setError] = useState({
+   
+    formError: "",
+  });
+  const handleRegister = () => {
+    if (user.name !== "" && user.email !== "" && user.rollNumber !== "") {
+
+      // setUserArr([...userArr, user]);
+      setUser({ name: "", email: "", rollNumber: "" });
+      setError({ error, formError: "" });
+
+
+    } else {
+      setError({ error, formError: "Fill all fields" });
+
+    }
+  };
   const slideOpen = () => {
     document.getElementById("mySidebar").style.display = "block";
   };
@@ -180,7 +197,9 @@ const Header = () => {
                       onChange={(e) => {
                         setUser({ ...user, email: e.target.value });
                       }}
+
                     />{" "}
+
                     {/* <br /> */}
                     <input
                       className="input-password-login"
@@ -191,9 +210,11 @@ const Header = () => {
                         setUser({ ...user, password: e.target.value });
                       }}
                     />
+
                   </div>
                   {/* <br /> */}
-                <button className="login-button-style">  <Link to="/dashboard"> Login </Link></button> 
+                <button className="login-button-style" onClick={handleRegister}>  <Link to="/dashboard"> Login </Link></button> 
+                {error.formError && <p> {error.formError}</p>}
 
                   <div className="forget-password">
                     {" "}

@@ -7,8 +7,28 @@
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.6) 0px 30px 60px -20px;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 5px 10px 8px #888888;
+}
+.glowCoin{
+  position: absolute;
+  opacity: 0;
+  top: 25px;
+    margin-left: 15px;
+}
+
+.hover-coin:hover> .coin-logo {
+  
+  opacity: 0;
+  
+}
+
+.hover-coin:hover> .glowCoin{
+  margin: 0;
+  height: 90px;
+  opacity: 1;
+  transition: 0.3s linear;
+  top: 0;
 }
 .header-nav a {
   color: #1c1e21;

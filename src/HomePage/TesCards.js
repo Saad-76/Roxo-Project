@@ -1,6 +1,7 @@
 import React from "react";
 import Tescards from "../shared/components/Tescards";
 import Quotepic from "../Assests/games.jpg";
+import Controllers from '../Assests/gameController.png'
 import { FaStar, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "./Tescards.css";
 const TesCards = () => {
@@ -11,7 +12,11 @@ const TesCards = () => {
     document.getElementById("containe").scrollLeft -= 430;
   };
 
-  return (
+  return (<>
+    <div className="cards-nav">
+      <img src={Controllers} height='50'/>
+      <h1>Games</h1>
+    </div>
     <div className="tes-card" id="containe">
       <button onClick={Leftscrol} className="tes-btn">
         <FaArrowLeft size={22.5} />
@@ -57,7 +62,7 @@ const TesCards = () => {
           who has never used them.  Try them &
           you'll never regret."
       />
-    </div>
+    </div></>
   );
 };
 

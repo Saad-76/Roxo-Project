@@ -8,6 +8,9 @@ import  blogIcon  from "../Assests/3D-ICONS/Blog Icon/bloger 256.png";
 import  discordIcon  from "../Assests/3D-ICONS/Discord icon/main 256.png";
 import  teleIcon  from "../Assests/3D-ICONS/Telegram/main 256.png";
 import twitterIcon  from "../Assests/3D-ICONS/Twitter Icon/main 256.png";
+import careerIcon  from "../Assests/3D-ICONS/Career Icon/front 256.png";
+import contactIcon  from "../Assests/3D-ICONS/Contact Us Icon/main 256.png";
+import WhiteIcon  from "../Assests/3D-ICONS/White Paper Icon/front 256.png";
 
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
@@ -74,10 +77,10 @@ const Header = () => {
           MORE
           <AiFillCaretDown size={10} />
           <div class="dropdown-content1">
-            <Link>Support</Link>
-            <Link>Careers</Link>
-            <Link>White Paper</Link>
-            <Link>Contact Us</Link>
+            <Link><img src={contactIcon} height="20px"/>Support</Link>
+            <Link><img src={careerIcon} height="20px"/>Careers</Link>
+            <Link><img src={WhiteIcon} height="20px"/>White Paper</Link>
+            <Link><img src={contactIcon} height="20px"/>Contact Us</Link>
           </div>
         </Link>
         {/* <Link  to="/login"> */}
@@ -137,10 +140,10 @@ const Header = () => {
             <AiFillCaretLeft size={15}/>
 
             <div class="dropdown-content1">
-              <Link>Support</Link>
-              <Link>Careers</Link>
-              <Link>Contact Us</Link>
-              <Link>White Paper</Link>
+              <Link><img src={contactIcon} height="20px"/>Support</Link>
+              <Link><img src={careerIcon} height="20px"/>Careers</Link>
+              <Link><img src={contactIcon} height="20px"/>Contact Us</Link>
+              <Link><img src={WhiteIcon} height="20px"/>White Paper</Link>
             </div>
             <p>MORE</p>{" "}
           </Link>

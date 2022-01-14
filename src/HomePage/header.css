@@ -23,10 +23,12 @@
   align-items: center;
 }
 .header-nav button {
-  color: #1c1e21;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 12px;
+  color: #1c1e21;
   background-color: #e4e6eb;
+  border: none;
+  padding: 5px 10px;
 }
 .dropdown-content {
   display: none;
@@ -253,6 +255,14 @@
     display: flex;
    
   }
+  .dropdown-content1 img{
+    margin-right: 10px !important;
+  }
+  .dropdown-content1 a{
+    display: flex;
+   
+  }
+  
 }
 
 

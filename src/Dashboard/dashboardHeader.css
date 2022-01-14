@@ -1,0 +1,33 @@
+.header-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    border-bottom: 1px solid gray;
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%);
+}
+.header-login-logo{
+    display: flex;
+    align-items: center;
+}
+.header-dash-setting{
+    display: flex;
+    align-items: center;
+}
+.header-dash-setting svg{
+    margin-right: 30px;   
+}
+.header-dash-setting h6{
+    margin-right: 30px;   
+}
+.header-dash-setting button{
+  color: #1c1e21;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #e4e6eb;
+  padding: 5px 15px;
+  border-radius: 12px;
+  color: #1c1e21;
+  background-color: #e4e6eb;
+  border: none;
+}

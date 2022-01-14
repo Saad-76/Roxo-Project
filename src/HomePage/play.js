@@ -6,6 +6,9 @@ const Play = () => {
   return (
     <div>
       <div className="col-md-12 play-main-style">
+      <div className="col-md-6 play-image-style">
+        <img  className="" src={playImagae} alt="playImagae"  />
+        </div>
         <div className="col-md-6 play-text-style">
           <div className="play-text-data-style">
           <h4>Play any where , any time</h4>
@@ -32,9 +35,7 @@ const Play = () => {
         </div>
         </div>
 
-        <div className="col-md-6 play-image-style">
-        <img  className="" src={playImagae} alt="playImagae"  />
-        </div>
+        
       </div>
     </div>
   );

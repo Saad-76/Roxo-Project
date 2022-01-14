@@ -17,12 +17,11 @@
 }
 .play-image-style{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
-.play-image-style{
-    height: 300px;
-    width: 400px;
+.play-image-style img{
+    height: 250px;
 }
 
 .first-buttons-style{

@@ -6,6 +6,9 @@ const Play = () => {
   return (
     <div>
       <div className="col-md-12 play-main-style">
+      <div className="col-md-6 play-image-style">
+        <img  className="" src={playImagae} alt="playImagae"  />
+        </div>
         <div className="col-md-6 play-text-style">
           <div className="play-text-data-style">
           <h4>Play any where , any time</h4>
@@ -15,16 +18,16 @@ const Play = () => {
           <div className="col-md-6">
             <button className="button-style-play"> Download Wallet</button>
           </div>
-          <div className="col-md-6">
-            <button className="button-style-play">IOS Download</button>
+          <div className="pl-5 col-md-6">
+            <button className="pl-5 button-style-play ">IOS Download</button>
           </div>
           </div>
 
-          <div className="col-md-12 second-buttons-style">
+          <div className="col-md-12 mt-4 second-buttons-style">
           <div className="col-md-6">
             <button className="button-style-play">Android Download</button>
           </div>
-          <div className="col-md-6">
+          <div className="pl-5 col-md-6 ">
             <button className="button-style-play">Google Play</button>
           </div>
           </div>
@@ -32,9 +35,7 @@ const Play = () => {
         </div>
         </div>
 
-        <div className="col-md-6 play-image-style">
-        <img  className="" src={playImagae} alt="playImagae"  />
-        </div>
+        
       </div>
     </div>
   );

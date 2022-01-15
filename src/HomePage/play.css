@@ -17,12 +17,12 @@
 }
 .play-image-style{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
-.play-image-style{
-    height: 300px;
-    width: 400px;
+.play-image-style img{
+    height: 250px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .first-buttons-style{
@@ -63,3 +63,14 @@ flex-direction: row;
     }
 
   } */
+  @media only screen and (max-width: 900px){
+    .play-main-style{
+        margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+    .play-text-style{
+        margin-top: 40px;
+    }
+  }

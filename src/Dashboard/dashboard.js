@@ -1,7 +1,7 @@
 import React from "react";
 import "./dashboard.css";
 import Welcome from "./welcome";
-import PlayGames from "./playGames";
+// import PlayGames from "./playGames";
 import DashboardHeader from "./dashboardHeader";
 
 const Dashboard = () => {
@@ -9,7 +9,7 @@ const Dashboard = () => {
     <div>
       <DashboardHeader/>
       <Welcome />
-      <PlayGames />
+      {/* <PlayGames /> */}
     </div>
   );
 };

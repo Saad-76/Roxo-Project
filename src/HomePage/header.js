@@ -17,6 +17,7 @@ import { FiMenu } from "react-icons/fi";
 import Logo from "../Assests/3.png";
 
 const Header = () => {
+  // ---------------------Login-Form-Code------------------------------------------
   const [user, setUser] = useState({
     email: "",
     password: "",
@@ -35,9 +36,11 @@ const Header = () => {
 
     } else {
       setError({ error, formError: "Fill all fields" });
-
     }
   };
+
+
+  // -------------------------------Login-Form-Code-End------------------------------
   const slideOpen = () => {
     document.getElementById("mySidebar").style.display = "block";
   };
@@ -155,7 +158,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      {/* ---------------------Modal----------- */}
+      {/* --------------------- Login-Form-Modal-Code ----------- */}
       <div
         class="modal fade "
         id="exampleModal"
@@ -176,17 +179,16 @@ const Header = () => {
                     height="250px"
                     width="250px"
                   />
-                  {/* <div className="logo-bottom-text"></div> */}
-                  <Link to="/signUp">
-                    {" "}
-                    <button className="register-button-loginForm display: none">
+           
+                  {/* <Link to="/signUp"> */}
+                    <button className="register-button-loginForm display: none"  data-bs-toggle="modal"
+            data-bs-target="#Data"  >
                       Sign Up!
-                    </button>{" "}
-                  </Link>
+                    </button>
+                  {/* </Link> */}
                 </div>
                 <div className="col-md-6 login-form-display">
                   <div>
-                    {" "}
                     <h3 className="login-fields-heading">
                       Login to your Account
                     </h3>
@@ -201,9 +203,8 @@ const Header = () => {
                         setUser({ ...user, email: e.target.value });
                       }}
 
-                    />{" "}
+                    />
 
-                    {/* <br /> */}
                     <input
                       className="input-password-login"
                       type="password"
@@ -215,12 +216,10 @@ const Header = () => {
                     />
 
                   </div>
-                  {/* <br /> */}
                 <button className="login-button-style" onClick={handleRegister}>  <Link to="/dashboard"> Login </Link></button> 
                 {error.formError && <p> {error.formError}</p>}
 
                   <div className="forget-password">
-                    {" "}
                     <p>Forgot Password</p>
                   </div>
                   <p className="have-account">Don’t you have an account?</p>
@@ -236,7 +235,24 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* ------------------------------ */}
+      {/* ----------------Login-Form-Modal-Code-End-------------- */}
+
+
+
+
+      {/* ----------------SignUp-Form-Modal-Code-End-------------- */}
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 };

@@ -3,6 +3,7 @@ import HomePage from "./HomePage/homePage";
 import Login from "./Login/login";
 import SignUp from "./SignUp/signUp";
 import Dashboard from "./Dashboard/dashboard";
+
 import { BrowserRouter as Router, Route, Redirect ,Switch} from "react-router-dom";
 
 const Routes = () => {
@@ -22,6 +23,7 @@ const Routes = () => {
         <Route path="/dashboard" component={Dashboard}>
           <Dashboard />
         </Route>
+     
         <Redirect  to="/homepage" />
         </Switch>
       </Router>

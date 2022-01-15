@@ -9,6 +9,7 @@ const PlayGames = () => {
       <h3 className="playGames-heading-style">ROXO PLAY TO EARN GAMES</h3>
       <div className="col-md-12 roxo-play-cards">
         <div className="col-md-6  style-card"  >
+     
           <div className="rox-play-cards-one">
             <h4>Haste King 3D online</h4>
             <img src={GameImage} alt="gameimage" height="100px " width="150px"/>
@@ -27,6 +28,8 @@ const PlayGames = () => {
             </div>
           </div>
         </div>
+        {/* <div className="roxo-play-cards-button"> Check Your Earnings</div> */}
+
         <div className="col-md-6 style-card">
         <div className="rox-play-cards-two">
             <img src="" alt="" />
@@ -50,6 +53,8 @@ const PlayGames = () => {
         </div>
       </div>
     </div>
+
+
     </>
   );
 };

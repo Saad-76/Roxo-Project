@@ -1,15 +1,4 @@
-/* .signup-form-style{
-     background-color: #ffffff;
-        border-radius: 1.2rem;
-        box-shadow: -6px 3px 14px 0px #0000002b;
-        padding: 20px 0px;
-     
-        justify-content: center;
-        align-items: center;
-        width:60%;
-        margin:120px 300px;
 
-}
 .background-color-signup{
     background-color: #e4e6eb ;
     background-size: cover;
@@ -17,17 +6,18 @@
     width: 100vw;
     top: 0;
     position: absolute;
-  
-
+    /* color: green; */
+    /* background-color: green; */
+ 
     
-}
-.signup-button-style{
+ }
+ .signup-button-style{
     margin-top: 4%;
     padding: 6px 18px;
   
     width: 100%;
     border-radius: 12px;
-   
+    /* margin: 4% 0; */
     color: #1c1e21;
   
     background-color: #e4e6eb;
@@ -36,9 +26,9 @@
   
   }
   .signup-password-login{
- 
+    /* margin: 18px 0px; */
     padding: 6px 18px;
-    
+    /* margin: 4% 0; */
     color: #1c1e21;
     background-color: #e4e6eb;
     border: none;
@@ -47,7 +37,9 @@
     
     }
     .signup-email-login{
+        /* margin: 18px 0px; */
         padding: 6px 18px;
+        /* margin: 4% 0; */
         color: #1c1e21;
         background-color: #e4e6eb;
         border: none;
@@ -58,7 +50,6 @@
         .signup-name-login{
             margin-top: 4%;
             padding: 6px 18px;
-       
             color: #1c1e21;
             background-color: #e4e6eb;
             border: none;
@@ -68,23 +59,23 @@
             }
             .heading-signup{
                 padding-left: 107px;
-
+ 
             }
             .signup-image{
                margin-left: 20px;
-
+ 
             }
-
+ 
            .display-signup-style{
                display: flex;
                flex-direction: column;
-
+ 
            } 
-
-
+ 
+ 
            .signup-have-account{
             font-size: 14px;
-        
+            /* padding: 0px 40px; */
             margin: 0;
             display: flex;
             flex-direction: row;
@@ -103,5 +94,5 @@
            }
            .signup-fields-heading{
             text-align: center;
-
-           } */
+ 
+           }

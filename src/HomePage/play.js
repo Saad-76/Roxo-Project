@@ -32,8 +32,8 @@ const Play = () => {
         </div>
         </div>
 
-        <div className="col-md-6">
-        <img  className="play-image-style" src={playImagae} alt="playImagae"  />
+        <div className="col-md-6 play-image-style">
+        <img  className="" src={playImagae} alt="playImagae"  />
         </div>
       </div>
     </div>

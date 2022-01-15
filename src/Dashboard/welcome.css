@@ -3,17 +3,25 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 30px 0px;
+
+}
+.welcome-images-style img{
+    border-radius: 10px;
+
 }
 .welcome-heading{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 30px 20px;
-    
+  padding: 12px 0px;
+
+background-color: rgba(0,0,0,0.1);    
 }
+
 .welcome-container{
-    padding: 30px 200px;
+    /* padding: 30px 0px; */
 }
 .welcome-background-color{
     /* margin-top: 40px; */
@@ -22,5 +30,5 @@
 .welcome-images-inner{
     display: flex;
     justify-content: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }

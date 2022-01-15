@@ -12,8 +12,8 @@ const Welcome = () => {
 
         <h3 className="welcome-heading">Welcome TO Gamefi World </h3>
         <div className="col-md-12 welcome-images-style">
-          <div className="col-md-4 welcome-images-inner">
-            <img src={NFT} alt="nft" height="200px" width="200px" />
+          <div className="col-md-4 welcome-images-inner ">
+            <img  src={NFT} alt="nft" height="200px" width="200px" />
           </div>
           <div className="col-md-4 welcome-images-inner">
             <img src={GAME} alt="nft" height="200px" width="200px" />

@@ -1,6 +1,8 @@
 import  {React, useState}  from 'react'
 import "./modalSignUp.css"
-// import {Link} from "react-router-dom"
+import Logo from "../Assests/3.png";
+
+import {Link} from "react-router-dom"
 
 const  ModalOpen=()=> {
     const [user, setUser] = useState({
@@ -34,13 +36,13 @@ const  ModalOpen=()=> {
    
           <h4 >SignUp</h4>
 
-          {/* <img
+          <img
           
                     src={Logo}
                     alt="logologin"
                     height="250px"
                     width="250px"
-                  /> */}
+                  />
         </div>
         <div className="col-md-6 display-signup-style">
           <div>
@@ -84,7 +86,7 @@ const  ModalOpen=()=> {
             <br />
             <br />
 
-            <button className="signup-button-style">Sign Up</button>
+          <button className="signup-button-style">  <Link to="/homepage"> Sign Up</Link> </button>
           </form>
 
           <p className="signup-have-account">Don’t you have an account?</p>

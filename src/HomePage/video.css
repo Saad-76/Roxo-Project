@@ -1,15 +1,29 @@
 .video_section-style{
 
-    height: 40vh;
-/* width: 100%; */
+    height: 200px;
 
 }
 .video-main-style{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .video-text-style{
-    padding: 100px 120px;
+  
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+
+}
+.video-section-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* --------------------full width and your height style---------------- */

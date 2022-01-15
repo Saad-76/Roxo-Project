@@ -71,7 +71,10 @@
                flex-direction: column;
  
            } 
- 
+           .modal-open {
+            overflow: visible !important;
+            padding-right: 0px !important;
+        }
  
            .signup-have-account{
             font-size: 14px;

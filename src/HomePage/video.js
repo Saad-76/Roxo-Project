@@ -7,7 +7,7 @@ const Video = () => {
     <div>
       <div className="col-md-12  video-main-style">
       <div className="col-md-6 ">
-        <div className="video-section-style">
+        <div className="video-section-style-main">
           <h5>Video Heading</h5>
           <video
             className="video_section-style"

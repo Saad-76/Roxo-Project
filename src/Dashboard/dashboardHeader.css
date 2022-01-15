@@ -21,8 +21,6 @@
     margin-right: 30px;   
 }
 .header-dash-setting button{
-  color: #1c1e21;
-  text-decoration: none;
   border-radius: 10px;
   background-color: #e4e6eb;
   padding: 5px 15px;
@@ -31,3 +29,7 @@
   background-color: #e4e6eb;
   border: none;
 }
+.header-dash-setting a{
+  color: #1c1e21;
+  text-decoration: none;
+  }

@@ -7,8 +7,28 @@
   justify-content: space-around;
   align-items: center;
   text-decoration: none;
-  border-bottom: 1px solid gray;
-  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%);
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 5px 10px 8px #888888;
+}
+.glowCoin{
+  position: absolute;
+  opacity: 0;
+  top: 25px;
+    margin-left: 15px;
+}
+
+.hover-coin:hover> .coin-logo {
+  
+  opacity: 0;
+  
+}
+
+.hover-coin:hover> .glowCoin{
+  margin: 0;
+  height: 90px;
+  opacity: 1;
+  transition: 0.3s linear;
+  top: 0;
 }
 .header-nav a {
   color: #1c1e21;
@@ -44,6 +64,9 @@
   text-decoration: none;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.drop-btn1{
+  min-width: 160px;
 }
 
 .dropdown-content a:hover {
@@ -234,7 +257,7 @@
 
 } */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .header-nav {
     display: none;
   }
@@ -266,7 +289,7 @@
 }
 
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
     .slides {
         width: 40%;
         position: absolute;

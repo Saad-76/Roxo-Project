@@ -10,7 +10,8 @@ import  teleIcon  from "../Assests/3D-ICONS/Telegram/main 256.png";
 import twitterIcon  from "../Assests/3D-ICONS/Twitter Icon/main 256.png";
 import careerIcon  from "../Assests/3D-ICONS/Career Icon/front 256.png";
 import contactIcon  from "../Assests/3D-ICONS/Contact Us Icon/main 256.png";
-import WhiteIcon  from "../Assests/3D-ICONS/White Paper Icon/front 256.png";
+import WhiteIcon  from "../Assests/whitePaper.png";
+import Glowcoin  from "../Assests/glowCoin.png";
 
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
@@ -59,10 +60,13 @@ const Header = () => {
         </Link>
         <Link>OUR GAMES</Link>
         <Link>NEWS</Link>
-        <Link>
+        <Link> 
+        <div className="hover-coin">         
+        <img className="glowCoin" src={Glowcoin} height="50px"></img>
           <div className="coin-logo">
             <img src={coinPic} height="70px"></img>
             <p>$0.0025</p>
+          </div>
           </div>
         </Link>
         <Link className="dropbtn">

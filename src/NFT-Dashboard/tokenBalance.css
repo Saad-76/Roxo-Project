@@ -1,0 +1,52 @@
+.balance-firstCards-style{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    
+}
+.balance-cardOne{
+    background-color:#ffffff;
+    height: 300px;
+    width: 400px;
+}
+.balance-cardTwo{
+    background-color:#ffffff;
+    height: 300px;
+    width: 400px;
+}
+.first-card-colum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Second-card-colum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.first-card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-Button-One{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-button-style{
+    /* margin: 12px 4px; */
+    padding: 6px 18px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    border-radius: 12px;
+    /* width: 100%; */
+  
+    background-color: #ffffff;
+    border:none;
+}

@@ -1,7 +1,7 @@
 .play-main-style{
     display: flex;
     flex-direction: row;
-    padding: 35px 0;
+    /* padding: 50px 0; */
 }
 .play-text-style{
     display: flex;
@@ -21,8 +21,13 @@
     align-items: center;
 }
 .play-image-style img{
-    height: 250px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+   
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6); */
+}
+.play-image-size{
+    /* height: 800px;
+    width: 700px; */
+    height: 431px;
 }
 
 .first-buttons-style{

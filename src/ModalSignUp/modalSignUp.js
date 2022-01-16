@@ -9,6 +9,7 @@ const  ModalOpen=()=> {
         name: "",
         email: "",
         password: "",
+        birthDate:"",
       });
     return (
         <div>
@@ -26,7 +27,7 @@ const  ModalOpen=()=> {
       <div class="modal-dialog">
         <div class="modal-content">
          
-          <div class="modal-body">
+          <div class=" modal-body-signup">
          
 
 
@@ -50,6 +51,9 @@ const  ModalOpen=()=> {
           </div>
 
           <form>
+          <label className="signup-birthDate-label" for="birthday">Name:</label>
+<br/>
+
             <input
               type="text"
               className="signup-name-login"
@@ -59,8 +63,9 @@ const  ModalOpen=()=> {
                 setUser({ ...user, name: e.target.value });
               }}
             />
-            <br />
-            <br />
+           
+           <label className="signup-birthDate-label" for="birthday">Email:</label>
+<br/>
 
             <input
               type="email"
@@ -71,25 +76,43 @@ const  ModalOpen=()=> {
                 setUser({ ...user, email: e.target.value });
               }}
             />
-            <br />
-            <br />
+           
+           <label className="signup-birthDate-label" for="birthday">Password:</label>
+<br/>
 
             <input
               type="password"
-              placeholder="New Password"
+              placeholder="Password"
               className="signup-password-login"
               value={user.password}
               onChange={(e) => {
                 setUser({ ...user, password: e.target.value });
               }}
             />
-            <br />
-            <br />
+
+<label className="signup-birthDate-label" for="birthday">Birth Date :</label>
+<br/>
+  <input               className="signup-birthDate-login"
+ type="date" id="birthday" name="birthday" min="1950-01-01" max="2040-12-31"   value={user.birthDate}    onChange={(e) => {
+                setUser({ ...user, birthDate: e.target.value });
+              }}/>
+              <label className="signup-birthDate-label" for="birthday">Gender:</label>
+<br/>
+
+<div className="signup-Gender-login">
+<input className="signup-gender-inputs" type="radio" name="gender" value="male"/> Male
+<input className="signup-gender-inputs" type="radio" name="gender" value="female"/> Female 
+<input className="signup-gender-inputs" type="radio" name="gender" value="unknown" /> Custom
+</div>
+
+
+
+
 
           <button className="signup-button-style">  <Link to="/homepage"> Sign Up</Link> </button>
           </form>
 
-          <p className="signup-have-account">Don’t you have an account?</p>
+          {/* <p className="signup-have-account">Don’t you have an account?</p> */}
           <p className="signup-register-now">
             {/* <Link to="/homepage" > Login </Link> */}
           </p>

@@ -8,6 +8,10 @@ import Video from "./video"
 import Play from "./play"
 import TesCards from "./TesCards"
 import ModalOpen from "../ModalSignUp/modalSignUp"
+import LoginModal from "../Login-Modal/loginModal"
+
+import Footer from "./footer"
+
 
 
 
@@ -17,12 +21,15 @@ const HomePage=()=> {
         <div className="background-color-main" >
             <Header/>
             <ModalOpen/>
+            <LoginModal/>
             <Slider/>
             <TesCards/>
             <Roxo/>
             <Vision/>
             <Video/>
             <Play/>
+            <Footer/>
+            
         </div>
     )
 }

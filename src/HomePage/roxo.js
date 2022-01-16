@@ -1,5 +1,8 @@
 import React from "react";
 import roxo from "../Assests/roxo.jpg";
+import Coin from "../Assests/Coin.png";
+
+
 import Logo from "../Assests/3.png";
 
 import "./roxo.css";
@@ -26,7 +29,7 @@ const Roxo = () => {
         </div>
         <div className="col-md-6 roxo-image-section">
           
-          <img   src={roxo} alt="roxo" height="300px" width="400px" />
+          <img   src={Coin} alt="roxo" height="400px" width="450px" />
     
         </div>
       </div>

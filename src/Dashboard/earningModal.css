@@ -1,0 +1,33 @@
+.earning-modal-style{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.earning-game-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.earning-modal-steps{
+    font-weight: 400px;
+    font-size: 20px;
+}
+.earning-modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 41px 101px;
+}
+.earning-video-button{
+    padding: 6px 18px;
+
+ 
+    width: 100%;
+    font-weight: bold;
+    border-radius: 12px;
+    color: #1c1e21;
+  
+    background-color: #e4e6eb;
+    border:none;
+}

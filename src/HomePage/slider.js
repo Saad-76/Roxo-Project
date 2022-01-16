@@ -1,10 +1,13 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap";
-import Render3 from "../Assests/render 3.png";
-import Render6 from "../Assests/render 6.png";
+// import Render3 from "../Assests/render 3.png";
+// import Render6 from "../Assests/render 6.png";
+import ForWebsite from "../Assests/For Website.png";
+import HasteKing  from "../Assests/HasteKing.png";
 
-import Render9 from "../Assests/render 9.png";
-import Render11 from "../Assests/render 11.png";
+
+// import Render9 from "../Assests/render 9.png";
+// import Render11 from "../Assests/render 11.png";
 
 import "./slider.css"
 
@@ -24,25 +27,25 @@ const Slider=()=> {
             <Carousel.Item>
               <img
                 className="d-block image-height   w-100"
-                src={Render6}
+                src={ForWebsite}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block image-height  w-100"
-                src={Render3}
+                src={HasteKing}
                 alt="Third slide"
               />
             </Carousel.Item>
 
-            <Carousel.Item className="carousel-image">
+            {/* <Carousel.Item className="carousel-image">
               <img
                 className="d-block image-height   w-100"
                 src={Render9}
                 alt="Third slide"
               />
-            </Carousel.Item>
+            </Carousel.Item> */}
           </Carousel>
         </div>
       </div>

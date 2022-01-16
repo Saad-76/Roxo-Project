@@ -1,0 +1,35 @@
+.modalVideo{
+    height: 50vh;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+
+}
+.modalVideo-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-video-background{
+    background-color: #e4e6eb;
+}
+.outer-divClose{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.modalVideo-close-button{
+    
+    padding: 6px 18px;
+  
+    width: 10%;
+    border-radius: 12px;
+    color: #1c1e21;
+    font-weight: bold;
+  
+    background-color: #ffffff;
+    border:none;
+  
+}

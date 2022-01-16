@@ -1,22 +1,23 @@
 import React from "react";
 import "./vision.css";
-import VisionImage from "../Assests/VisionImage.jpg";
+// import VisionImage from "../Assests/VisionImage.jpg";
+import NFTGamevision from "../Assests/NFT Game vision.png";
+
 
 const Vision = () => {
   return (
     <div>
       <div className="vision-style">
       <div className="col-md-12 vision-main-style">
-        <div className="col-md-6 vision-image-style">
+        <div className="col-md-8 vision-image-style">
           <img
-          
-            src={VisionImage}
+          className="vision-image-size"
+            src={NFTGamevision }
             alt="visionimage"
-            // height="300px"
-            // width="700px"
+           
           />
         </div>
-        <div className="col-md-6 vision-text-style">
+        <div className="col-md-4 vision-text-style">
           <div className="vision-text-data-style">
         <div className="visiion-upper-text">  <h3>Our Vision</h3>
           <p>Free to play Play to Earn</p>

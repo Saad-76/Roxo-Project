@@ -1,42 +1,34 @@
-// import React from "react";
-// import "./footer.css";
-// import { BsTwitter } from "react-icons/bs";
-// import { FaTelegram } from "react-icons/fa";
-// import { FaBlogger } from "react-icons/fa";
-// import { AiOutlineMedium } from "react-icons/ai";
-// import 
-// const Footer = () => {
-//   return (
-//     <>
-//       <div className="col-md-12 first-section-footer">
-//         <div className="col-md-6">
-//           <FaTelegram size={50} />
-//           <BsTwitter size={50} />
-//           <FaBlogger size={50} />
-//           <AiOutlineMedium size={50} />
-//         </div>
-//         <div className="col-md-6 footer-first-section-text">
-//           <h6>This is our Community </h6>
-//           <p>Feel free to play</p>
-//           <p>Play to Eran</p>
-//         </div>
-//       </div>
-// <div className="col-md-12">
+import React from "react";
+import "./footer.css";
+import { Link } from "react-router-dom";
 
-//     <div className="col-md-6">
-// <div>
-//     <img src="" alt=""/>
-//     <h5> Telegram <br/> 8K+</h5>
-    
-// </div>
-//     </div>
-//     <div className="col-md-6">
+import  blogIcon  from "../Assests/3D-ICONS/Blog Icon/bloger 256.png";
+import  discordIcon  from "../Assests/3D-ICONS/Discord icon/main 256.png";
+import  teleIcon  from "../Assests/3D-ICONS/Telegram/main 256.png";
+import twitterIcon  from "../Assests/3D-ICONS/Twitter Icon/main 256.png";
 
-//     </div>
+const Footer = () => {
+  return (
+    <>
+    <div className="footer-component-style">
+    <div className="col-md-12 footer-grid"> 
 
-// </div>
-//     </>
-//   );
-// };
+        <div className=" col-md-6 footer-icons-style">
+            
+        <Link> <img src={blogIcon} height="35px"/>Blog</Link>
+            <Link><img src={discordIcon} height="35px"/>Discord</Link>
+            <Link><img src={twitterIcon} height="35px"/>Twitter</Link>
+            <Link><img src={teleIcon} height="35px"/>Telegram</Link>
+            </div>
+<div className="col-md-6 footer-copyright" >
+            <p>Copyright @2022 ROXO, All rights reserved.</p>
+</div>
+    </div>
+    </div>
 
-// export default Footer;
+  
+    </>
+  );
+};
+
+export default Footer;

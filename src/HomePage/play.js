@@ -1,13 +1,17 @@
 import React from "react";
 import "./play.css";
 import playImagae from "../Assests/PlayImage.jpg";
+import Mobilephoto from "../Assests/Mobile photo.png";
+
 
 const Play = () => {
   return (
-    <div>
+    <>
       <div className="col-md-12 play-main-style">
-      <div className="col-md-6 play-image-style">
-        <img  className="" src={playImagae} alt="playImagae"  />
+      <div className="col-md-6 ">
+        <div className="play-image-style">
+        <img  className="play-image-size" src={Mobilephoto} alt="playImagae"  />
+        </div>
         </div>
         <div className="col-md-6 play-text-style">
           <div className="play-text-data-style">
@@ -37,7 +41,8 @@ const Play = () => {
 
         
       </div>
-    </div>
+      
+    </>
   );
 };
 

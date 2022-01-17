@@ -1,0 +1,81 @@
+.withDraw-modal-style{
+    padding: 56px;
+
+}
+.withDraw-address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+}
+.withDraw-network{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+}
+.withDraw-Amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        padding-top: 16px;
+}
+.withDraw-Receive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        padding-top: 16px;
+}
+.withDrawModal-heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 12px;
+    /* justify-content: center; */
+
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+}
+.withdraw-address-field{
+    margin-left: 12px;
+    padding: 5px 12px;
+    background-color: #e4e6eb ;
+    border-radius: 12px;
+}
+.withDraw-network-field{
+    margin-left: 12px;
+    padding: 5px 12px;
+    background-color: #e4e6eb ;
+    border-radius: 12px;
+}
+.withDraw-Amount-field{
+    margin-left: 12px;
+    padding: 5px 12px;
+    background-color: #e4e6eb ;
+    border-radius: 12px;
+}
+.withDraw-recieve-field{
+    margin-left: 12px;
+    margin-top: 20px;
+    padding: 5px 12px;
+    /* background-color: #e4e6eb ; */
+    border-radius: 12px;
+}
+.withDrawModal-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.withDrawModal-button-style{
+    padding: 6px 4px;
+    /* margin: 4% 0; */
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 15%;
+  
+    background-color: #e4e6eb ;
+    border:none;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+}

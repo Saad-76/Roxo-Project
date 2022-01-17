@@ -36,7 +36,6 @@ const PlayGames = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#EarningModal"
               >
-                {" "}
                 Check Your Earnings
               </button>
             </div>
@@ -99,7 +98,6 @@ const PlayGames = () => {
               </div>
 
               <button className="dashboard-earnings-button">
-     
                 <Link to="/nftdashboard"> Check Your Earnings </Link>
               </button>
             </div>

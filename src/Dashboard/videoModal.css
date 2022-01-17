@@ -1,35 +1,29 @@
 .modalVideo{
     height: 50vh;
     width: 100%;
-    object-fit: fill;
+    /* object-fit: fill; */
     border-radius: 12px;
 
 }
-.modalVideo-heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.video-background{
+    background: transparent;
+    border: none;
 }
-.modal-video-background{
-    background-color: #e4e6eb;
-}
-.outer-divClose{
+.modalVideo-close-button{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: flex-end;
-    align-items: flex-end;
+    margin-right: 90px;
 }
-
-.modalVideo-close-button{
-    
-    padding: 6px 18px;
-  
-    width: 10%;
-    border-radius: 12px;
-    color: #1c1e21;
-    font-weight: bold;
-  
-    background-color: #ffffff;
-    border:none;
-  
+.skip-video{
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fcfcfc;
+    background-color: #d11a2a;
+    border: none;
+    padding: 5px 10px;
+   
 }

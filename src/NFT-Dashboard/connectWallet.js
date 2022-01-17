@@ -5,8 +5,10 @@ const ConnectWallet=()=> {
     return (
         <>
           <div>
-              <h2 className="connectWallet-heading">My NFTs</h2>
-
+              <div className="connect-nft-heading">
+          <h2 className="nftdashboard-heading">Dashboard</h2>
+              <h2 className="mynft-heading" >My NFTs</h2>
+</div>
 <div className="connectWallet-background">
     <button className="connectWallet-button"> Connect to Wallet </button>  </div>
 

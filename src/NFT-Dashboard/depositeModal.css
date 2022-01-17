@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+.deposit-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.deposit-network{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.deposit-minimum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,52 +1,214 @@
-.balance-firstCards-style{
+.balance-style{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-start;
-    /* justify-content: flex-start; */
+}
+
+.balance-firstCard-background{
+  
+  width: 50%;
+  height: 80%;
+  display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 80px; */
+    margin-right: 12px;
+    margin-top: 77px;
     
 }
-.balance-cardOne{
-    background-color:#ffffff;
-    height: 300px;
-    width: 400px;
+.firstCard-backColor{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    padding: 20px;
+
+
 }
-.balance-cardTwo{
-    background-color:#ffffff;
-    height: 300px;
-    width: 400px;
-}
-.first-card-colum{
+
+.balance-firstCard-inner{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
+     flex-direction: row;
+     /* justify-content: center; */
+     align-items: center;
+    
+   
 }
-.Second-card-colum{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-}
-.first-card-buttons{
+.token-value{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
-.card-Button-One{
+.token-value p{
+    margin-left: 20px;
+}
+.balance-firstCard-style{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: flex-end;
 }
-.card-button-style{
-    /* margin: 12px 4px; */
-    padding: 6px 18px;
+.firstCard-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+    /* margin-right: 12px; */
+}
+.firstCard-button button{
+    margin-right: 14px;
+}
+.firstCard-button-style{
+    padding: 6px 4px;
     /* margin: 4% 0; */
     color: #1c1e21;
     border-radius: 12px;
-    /* width: 100%; */
+    width: 15%;
   
     background-color: #ffffff;
     border:none;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+}
+
+
+
+.balance-secondCard-background{
+    /* background-color: white; */
+    width: 60%;
+    height: 80%;
+    margin-top: 77px;
+
+}
+.secondCard-backColor{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    padding: 20px;
+
+
+}
+
+
+.balance-secondCard-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.global-rank{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.balance-stats-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.balance-stats-button button{
+    margin: 8px 0px;
+    padding: 6px 18px;
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+    background-color: #e4e6eb;
+    border:none;
+}
+.hasteKing-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hasteKing-button button{
+    padding: 6px 18px;
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+    background-color: #e4e6eb;
+    border:none;
+}
+
+.stat-fields{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.convert-button-secondCard{
+    padding: 6px 18px;
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+  
+    background-color: #e4e6eb;
+    border:none; 
+    
+}
+
+.balance-thirdCard-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thirdCard-backColor{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    padding: 40px;
+
+
+}
+.thirdCard-main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+  
+}
+.third-card-set{
+    width: 50%;
+    /* height: 80%; */
+    margin-top: 26px;
+    margin-right: 12px;
+}
+
+.thirdCard-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 12px;
+    margin-right: 100px;
+
+
+}
+.thirdCard-button-style{
+    padding: 6px 18px;
+    color: #1c1e21;
+    border-radius: 12px;
+    width: 30%;
+  
+    background-color: #ffffff;
+    border:none; 
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+
 }

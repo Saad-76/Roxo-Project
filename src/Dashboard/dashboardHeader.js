@@ -43,10 +43,10 @@ const  DashboardHeader=()=> {
 
 <div className="header">
       <div className="header-nav col-md-12">
-        <Link>
+      <Link to="/homepage">
           <div className="logo-head">
             <img src={logoPic} height="70px"></img>
-            <h5>ROXO</h5>
+            {/* <h5>ROXO</h5> */}
           </div>
         </Link>
         <Link>OUR GAMES</Link>

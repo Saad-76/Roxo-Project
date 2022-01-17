@@ -4,6 +4,7 @@
     margin: 0px 25px;
     background-color: #edf0f3;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 .tes-card{
     overflow:scroll;

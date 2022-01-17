@@ -2,7 +2,6 @@ import React from 'react'
 import NFT1 from "../Assests/NFT1.png"
 import NFT2 from "../Assests/NFT2.jpg"
 import NFT3 from "../Assests/NFT3.png"
-
 import NFT4 from "../Assests/NFT4.jpg"
 import "./newNfts.css"
 

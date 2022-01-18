@@ -1,22 +1,36 @@
-import React from 'react'
-import "./connectWallet.css"
+import React from "react";
+import "./connectWallet.css";
 
-const ConnectWallet=()=> {
-    return (
-        <>
-          <div>
-              <div className="connect-nft-heading">
-          <h2 className="nftdashboard-heading">Dashboard</h2>
-              <h2 className="mynft-heading" >My NFTs</h2>
+const ConnectWallet = () => {
+  return (
+    <>
+      <h2 className="connect-heading">Dashboard</h2>
+      <div className="col-md-12 connect-main-section">
+<div className="col-md-4">
+
 </div>
-<div className="connectWallet-background">
-    <button className="connectWallet-button"> Connect to Wallet </button>  </div>
 
-              </div>  
+<div className="col-md-8" >
+<div className="background-connectWallet">
+      <div className="connect-address-section">
+        <div>
+          <p>Public Address:</p>
+        </div>
+        <div>
+          <p> 0x000000000000000000000000000000000 </p>
+        </div>
+        <div>
+          <button className="wallet-connected-button-style" >Wallet Connected</button>
+        </div>
+      </div>
 
+      </div>
 
-        </>
-    )
-}
+      </div>
+      </div>
+
+    </>
+  );
+};
 
 export default ConnectWallet;

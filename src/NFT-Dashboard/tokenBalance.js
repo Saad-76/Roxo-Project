@@ -1,14 +1,33 @@
 import React from 'react'
 import "./tokenBalance.css"
 import RoxoCoin from "../Assests/3.png"
+import GAME from "../Assests/GAME.jpg"
+import FINANCE from "../Assests/FINANCE.jpg"
+import NFT from "../Assests/NFT.jpg"
+
 
 const TokenBalance=()=> {
     return (
         <>
          <div className="col-md-12 balance-style"> 
+<div className="col-md-4">
+    <div className="balance-GameName">
+<img src={GAME} alt="game" width="40px" height="40px"/>
+    <p className="gameName-heading">Game Name</p>
+    </div>
+    <div className="balance-dashboard">
+    <img src={FINANCE} alt="game" width="40px" height="40px"/>
+    <p className="dashboard-heading">Dashboard</p>
+</div>
+<div className="nft-dashboard">
+    <img src={NFT} alt="game" width="40px" height="40px"/>
+    <p className="nft-heading">NFTs</p>
+    </div>
 
+</div>
 
-<div className="col-md-6  ">
+<div className="col-md-4  ">
+
 
 <div className=" balance-firstCard-style">
 <div className="balance-firstCard-background">
@@ -63,7 +82,7 @@ const TokenBalance=()=> {
 </div>
 
 
-<div className="col-md-6">
+<div className="col-md-4">
 <div className="balance-secondCard-background">
     <div className="secondCard-backColor">
 <div className="hasteKing-button" >

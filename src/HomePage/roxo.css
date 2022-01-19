@@ -24,8 +24,12 @@
 
 }
 .roxo-style{
-  padding: 50px 0;
+  padding: 75px 0;
 }
+/* .roxo-coin-size{
+  height:"150px";
+  width:"150px"
+} */
 @media only screen and (max-width: 900px){
   .roxo-main-style{
     display: flex;

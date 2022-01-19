@@ -1,34 +1,28 @@
-import  {React, useState}  from 'react'
-import "./modalSignUp.css"
-import Logo from "../Assests/3.png";
-
+import {React, useState} from "react";
+import { Modal} from "react-bootstrap";
+import Logo from "../Assests/3.png"
 import {Link} from "react-router-dom"
-
-const  ModalOpen=()=> {
-    const [user, setUser] = useState({
-        name: "",
-        email: "",
-        password: "",
-        birthDate:"",
-      });
-    return (
-        <div>
- 
-               <div
-      class="modal fade"
-      id="Data"
-      tabindex="-1"
-      aria-labelledby="DataLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content modal-border-style">
-         
-          <div class=" modal-body-signup">
-         
+import "./signUp.css";
 
 
-          <div className="signup-form-style">
+const SignUp = (props) => {
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    password: "",
+    birthDate:"",
+  });
+  return (
+    <>
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Body className="signup-modal-body-padding" >
+          
+        <div className="signup-form-style">
       <div className="col-md-12 row login-divs">
         <div className="col-md-6 signup-image-side">
    
@@ -121,15 +115,16 @@ const  ModalOpen=()=> {
           </div>
        
       
-        </div>
-      </div>
-    </div>
 
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button> */}
 
-    </div>  
-    </div>  
-
-    )
-}
-
-export default ModalOpen;
+          {/* <SignUp/> */}
+          {/* <Button><NavBar/></Button> */}
+        {/* </Modal.Footer> */}
+      </Modal>
+    </>
+  );
+};
+export default SignUp;

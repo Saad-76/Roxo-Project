@@ -17,8 +17,9 @@ const Roxo = () => {
           
           src={Logo}
           alt="logologin"
-          height="200px"
-          width="200px"
+          className="roxo-coin-size"
+          height="150px"
+          width="150px"
         />          <p className="text-style-roxo">
             Bitcoin (₿) is a decentralized digital currency, without a central
             bank or single administrator, that can be sent from user to user on

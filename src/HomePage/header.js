@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import logoPic from "../Assests/25.png";
@@ -15,8 +15,16 @@ import Glowcoin from "../Assests/glowCoin.png";
 
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
+import Login from "./login";
+
 
 const Header = () => {
+  // -------------Modal Code--------------
+  const [modalShow, setModalShow] = useState(false);
+
+
+
+
   const slideOpen = () => {
     document.getElementById("mySidebar").style.display = "block";
   };
@@ -89,9 +97,12 @@ const Header = () => {
           </div>
         </Link>
         {/* <Link  to="/login"> */}
-        <button data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => setModalShow(true)}>
           GAME EARNINGS
         </button>
+        {/* <button data-bs-toggle="modal" data-bs-target="#exampleModal">
+          GAME EARNINGS
+        </button> */}
         {/* </Link> */}
       </div>
       <div className="header-nav-sml col 12">
@@ -173,14 +184,18 @@ const Header = () => {
                 White Paper
               </Link>
             </div>
-            <p>MORE</p>{" "}
+            <p>MORE</p>
           </Link>
         </div>
         <div className="slide-down">
-          <Link className="nav-links single " to="/login">
-            {" "}
-            <p>GAME EARNINGS</p>{" "}
-          </Link>
+          {/* <Link className="nav-links single " to="/login"> */}
+       
+            <p onClick={() => setModalShow(true)}>GAME EARNINGS</p>{" "}
+            <Login
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+          {/* </Link> */}
         </div>
       </div>
     </div>

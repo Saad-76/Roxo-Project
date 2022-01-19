@@ -1,42 +1,52 @@
 import {React, useState}  from 'react'
 import Logo from "../Assests/3.png";
+
+import { Modal } from "react-bootstrap";
+import "./login.css";
+
 import { Link } from "react-router-dom";
-import "./loginModal.css"
+
+import SignUp from "./signUp";
+
+const Login = (props) => {
+  const [modalShow, setModalShow] = useState(false);
+  const SignUpHandler = () => {
+    setModalShow(true);
+    props.onHide();
+  };
+
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  });
+  const [error, setError] = useState({
+   
+    formError: "",
+  });
+  const handleRegister = () => {
+    if (user.name !== "" && user.email !== "" && user.rollNumber !== "") {
+
+      setUser({ email: "", password: ""});
+      setError({ error, formError: "" });
 
 
-const  LoginModal=()=> {
-    const [user, setUser] = useState({
-        email: "",
-        password: "",
-      });
-      const [error, setError] = useState({
-       
-        formError: "",
-      });
-      const handleRegister = () => {
-        if (user.name !== "" && user.email !== "" && user.rollNumber !== "") {
-    
-          // setUserArr([...userArr, user]);
-          setUser({ email: "", password: ""});
-          setError({ error, formError: "" });
-    
-    
-        } else {
-          setError({ error, formError: "Fill all fields" });
-        }
-      };
-    return (
-        <div>
-             <div
-        class="modal fade "
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
+    } else {
+      setError({ error, formError: "Fill all fields" });
+    }
+  };
+
+
+  return (
+    <>
+      <Modal 
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        className="modal_main  "
       >
-        <div class="modal-dialog">
-          <div class="modal-content modal-border-style">
-            <div class="modal-body">
+        <Modal.Body className="modal-padding " >
+        <div className="col-md-12">
               <div className="login-form-style-roxo">
                 <div className="col-md-6 login-image-side">
                   <h4 className="login-form-heading"> Welcome to ROXO </h4>
@@ -49,8 +59,7 @@ const  LoginModal=()=> {
                   />
            
                   {/* <Link to="/signUp"> */}
-                    <button className="register-button-loginForm display: none"  data-bs-toggle="modal"
-            data-bs-target="#Data"  >
+                    <button className="register-button-loginForm "  onClick={SignUpHandler}  >
                       Sign Up!
                     </button>
                   {/* </Link> */}
@@ -100,11 +109,11 @@ const  LoginModal=()=> {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-        </div>
-    )
-}
-
-export default LoginModal;
+        </Modal.Body>
+      
+      </Modal>
+      <SignUp show={modalShow} onHide={() => setModalShow(false)} />
+    </>
+  );
+};
+export default Login;

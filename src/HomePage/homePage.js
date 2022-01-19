@@ -7,8 +7,10 @@ import Vision from "./vision"
 import Video from "./video"
 import Play from "./play"
 import TesCards from "./TesCards"
-import ModalOpen from "../ModalSignUp/modalSignUp"
-import LoginModal from "../Login-Modal/loginModal"
+import Login from "./login"
+import SignUp from "./signUp"
+// import ModalOpen from "../ModalSignUp/modalSignUp"
+// import LoginModal from "../Login-Modal/loginModal"
 
 import Footer from "./footer"
 
@@ -20,8 +22,10 @@ const HomePage=()=> {
     return (
         <div className="background-color-main" >
             <Header/>
-            <ModalOpen/>
-            <LoginModal/>
+            <SignUp/>
+            <Login/>
+            {/* <ModalOpen/> */}
+            {/* <LoginModal/> */}
             <Slider/>
             <TesCards/>
             <Roxo/>

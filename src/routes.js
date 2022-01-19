@@ -1,7 +1,8 @@
 import React from "react";
 import HomePage from "./HomePage/homePage";
-// import Login from "./Login/login";
-// import SignUp from "./SignUp/signUp";
+import Login from "./HomePage/login"
+import SignUp from "./HomePage/signUp"
+
 import Dashboard from "./Dashboard/dashboard";
 import NftDashboard from "./NFT-Dashboard/nftDashboard"
 
@@ -15,12 +16,12 @@ const Routes = () => {
         <Route exact path="/homepage" component={HomePage}>
           <HomePage />
         </Route>
-        {/* <Route path="/signUp" component={SignUp}>
+        <Route path="/signUp" component={SignUp}>
           <SignUp />
         </Route>
         <Route path="/login" component={Login}>
           <Login />
-        </Route> */}
+        </Route>
         {/* -----------------Private-------- */}
         <Route path="/dashboard" component={Dashboard}>
           <Dashboard />

@@ -1,7 +1,7 @@
 .play-main-style{
     display: flex;
     flex-direction: row;
-    /* padding: 50px 0; */
+    padding: 80px 0; 
 }
 .play-text-style{
     display: flex;
@@ -27,7 +27,7 @@
 .play-image-size{
     /* height: 800px;
     width: 700px; */
-    height: 431px;
+    height: 507px;
 }
 
 .first-buttons-style{

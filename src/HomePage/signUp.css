@@ -114,7 +114,7 @@
  
            } 
            .modal-open {
-            overflow: visible !important;
+            /* overflow: visible !important; */
             padding-right: 0px !important;
         }
  

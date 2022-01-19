@@ -46,8 +46,7 @@
     align-items: center;
     text-decoration: none;
     border-bottom: 1px solid #ffffff;
-    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
-  }
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);  }
   .glowCoin{
     position: absolute;
     opacity: 0;

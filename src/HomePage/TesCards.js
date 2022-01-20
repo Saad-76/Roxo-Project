@@ -2,6 +2,9 @@ import React from "react";
 import Tescards from "../shared/components/Tescards";
 import Quotepic from "../Assests/games.jpg";
 import Controllers from '../Assests/gameController.png'
+import GameSlider1 from "../Assests/GameSlider1.jpeg"
+import GameSlider2 from "../Assests/GameSlider2.jpeg"
+
 import { FaStar, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "./Tescards.css";
 const TesCards = () => {
@@ -24,44 +27,38 @@ const TesCards = () => {
       <button onClick={Rightscrol} className="tes-btn1">
         <FaArrowRight size={22.5} />
       </button>
+<div className="cards-style-test-data" >
+      <Tescards
+        tesicon={<img src={GameSlider1}  height='150px'/>}
+        tesheading="Haste King"
+        tesheading1="Real PVP running battle "
+      
+      />
+      <Tescards
+        tesicon={<img src={GameSlider2} />}
+        tesheading="The Stupi"
+        tesheading1="Real PVP running battle "
 
-      <Tescards
-        tesicon={<img src={Quotepic }  height='150px'/>}
-        tesheading="Temple Game"
-        tesheading1="Reviewed "
-        testext="Very convenient and reliable, got my
-          stuff on time and in perfect
-          condition.Thank you kenya exports"
       />
-      <Tescards
-        tesicon={<img src={Quotepic} />}
-        tesheading="Running Game"
-        tesheading1="Reviewed "
-        testext="Very efficient and reliable team kenex
-          exports guys are,keep up the gud job."
-      />
-      <Tescards
+      </div>
+      {/* <Tescards
         tesicon={<img src={Quotepic} />}
         tesheading="Sa Game"
-        tesheading1="Reviewed "
-        testext="Efficient and reliable service keep it up
-          guys."
+        tesheading1="Real PVP running battle "
+
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
         tesheading="Data Game"
-        tesheading1="Reviewed "
-        testext="Reliable and friendly you are the best."
+        tesheading1="Real PVP running battle "
+
       />
       <Tescards
         tesicon={<img src={Quotepic} />}
         tesheading="Fighting Game"
-        tesheading1="Reviewed "
+        tesheading1="Real PVP running battle "
 
-        testext="I highly recommend this to people
-          who has never used them.  Try them &
-          you'll never regret."
-      />
+      /> */}
     </div></>
   );
 };

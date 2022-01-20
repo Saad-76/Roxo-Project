@@ -13,15 +13,20 @@ margin-left: 30px;
     padding-top : 300px;
 }
 .footer-grid{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
     box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
-    padding: 12px 0px;
-
-
+    padding: 12px 0px; */
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+    justify-content: space-between;
+    /* background-color: white; */
+    /* box-shadow: 0 1px 8px rgb(0 0 0 / 30%); */
+   
 }
 .footer-copyright{
     display: flex;
@@ -29,4 +34,15 @@ margin-left: 30px;
     align-items: center;
     justify-content: center;
     padding: 12px;
+}
+.flex-style{
+    display: flex;
+    flex-direction: row;
+    width: 0;
+
+}
+.links-style{
+    width: 0;
+    flex: 0 0 auto;
+
 }

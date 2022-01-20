@@ -106,7 +106,7 @@ const  DashboardHeader=()=> {
         </Link>
        <Link to="/homepage">
         <button >
-      Log Out
+      <b> Log Out </b>
         </button>
         </Link>
  

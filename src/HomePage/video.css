@@ -37,6 +37,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 47px;
+
 }
 
 /* --------------------full width and your height style---------------- */

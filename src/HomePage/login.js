@@ -7,6 +7,8 @@ import "./login.css";
 import { Link } from "react-router-dom";
 
 import SignUp from "./signUp";
+import LoginForm from "../Assests/LoginForm.jpeg"
+
 
 const Login = (props) => {
   const [modalShow, setModalShow] = useState(false);
@@ -52,7 +54,7 @@ const Login = (props) => {
                   <h4 className="login-form-heading"> Welcome to ROXO </h4>
                   <img
                     className="login-image"
-                    src={Logo}
+                    src={LoginForm }
                     alt="logologin"
                     height="250px"
                     width="250px"

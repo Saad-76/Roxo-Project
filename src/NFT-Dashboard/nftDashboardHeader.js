@@ -90,7 +90,7 @@ const NftDashboardHeader = () => {
             </div>
           </Link>
           {/* <Link to="/homepage"> */}
-            <button>User Name</button>
+            <button><b> Log Out </b> </button>
           {/* </Link> */}
         </div>
         <div className="header-nav-sml col 12">
@@ -178,7 +178,7 @@ const NftDashboardHeader = () => {
           <div className="slide-down">
             <Link className="nav-links single " to="/login">
               {" "}
-              <p>GAME EARNINGS</p>{" "}
+              <p>Log Out</p>{" "}
             </Link>
           </div>
         </div>

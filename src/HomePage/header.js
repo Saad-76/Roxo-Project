@@ -98,7 +98,7 @@ const Header = () => {
         </Link>
         {/* <Link  to="/login"> */}
         <button data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => setModalShow(true)}>
-          GAME EARNINGS
+        <b>  GAME EARNINGS </b>
         </button>
         {/* <button data-bs-toggle="modal" data-bs-target="#exampleModal">
           GAME EARNINGS
@@ -190,7 +190,7 @@ const Header = () => {
         <div className="slide-down">
           {/* <Link className="nav-links single " to="/login"> */}
        
-            <p onClick={() => setModalShow(true)}>GAME EARNINGS</p>{" "}
+         <p onClick={() => setModalShow(true)}>GAME EARNINGS</p>{" "}
             <Login
         show={modalShow}
         onHide={() => setModalShow(false)}

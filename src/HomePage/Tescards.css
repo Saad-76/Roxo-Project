@@ -1,11 +1,20 @@
 .tes-scr{
-    height: 400px;
-    width: 401px;
+    height: 370px;
+    width: 380px;
+
     margin: 0px 25px;
     background-color: #edf0f3;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+
+.cards-style-test-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 
 .game-heading-cards{
     padding-top: 12px;
@@ -13,7 +22,7 @@
 .tes-card{
     overflow:scroll;
     background-color: white;
-    display: flex;
+    /* display: flex; */
     padding: 40px 0px;
 }
 .scrol-sec{
@@ -30,7 +39,8 @@
     display: none;
 }
 .tes-icon img{ 
-    width: 400Px;    height: 200px;
+    width: 380Px;    height: 255px;
+ 
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 

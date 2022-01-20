@@ -10,6 +10,8 @@ const Tescards = (props) => {
           {props.tesheading}
           </h4>
           <h6>{props.tesheading1}</h6>
+       
+
         <p className="text-tes text-align-center" style={{width:'400px'}}> {props.testext}</p>
         </div>
         </div>

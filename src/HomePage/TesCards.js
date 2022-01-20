@@ -30,8 +30,11 @@ const TesCards = () => {
 <div className="cards-style-test-data" >
       <Tescards
         tesicon={<img src={GameSlider1}  height='150px'/>}
+      
         tesheading="Haste King"
-        tesheading1={<p>Real PVP running battle </p>}
+
+        tesheading1={<p>Real PVP running battle  <button > View</button></p>}
+
       
       />
       <Tescards

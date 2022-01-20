@@ -31,13 +31,13 @@ const TesCards = () => {
       <Tescards
         tesicon={<img src={GameSlider1}  height='150px'/>}
         tesheading="Haste King"
-        tesheading1="Real PVP running battle "
+        tesheading1={<p>Real PVP running battle </p>}
       
       />
       <Tescards
         tesicon={<img src={GameSlider2} />}
         tesheading="The Stupi"
-        tesheading1="Real PVP running battle "
+        tesheading1={<p>Real PVP running battle </p>}
 
       />
       </div>

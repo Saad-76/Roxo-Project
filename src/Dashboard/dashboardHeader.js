@@ -49,8 +49,8 @@ const  DashboardHeader=()=> {
             {/* <h5>ROXO</h5> */}
           </div>
         </Link>
-        <Link>OUR GAMES</Link>
-        <Link>NEWS</Link>
+        <Link>Our Games</Link>
+        <Link>News</Link>
         <Link>
           <div className="hover-coin">
             <img className="glowCoin" src={Glowcoin} height="50px"></img>
@@ -61,7 +61,7 @@ const  DashboardHeader=()=> {
           </div>
         </Link>
         <Link className="dropbtn">
-          OUR COMMUNITY <AiFillCaretDown size={10} />
+          Our Community <AiFillCaretDown size={10} />
           <div class="dropdown-content">
             <Link>
               {" "}
@@ -83,7 +83,7 @@ const  DashboardHeader=()=> {
           </div>
         </Link>
         <Link className="dropbtn1">
-          MORE
+          More
           <AiFillCaretDown size={10} />
           <div class="dropdown-content1">
             <Link>
@@ -136,12 +136,12 @@ const  DashboardHeader=()=> {
         </div>
         <div className="slide-down">
           <Link className="nav-links  single active " href="#homepage">
-            <p> OUR GAMES </p>
+            <p> Our Games</p>
           </Link>
         </div>
         <div className="slide-down">
           <Link className="nav-links  single active " href="#vision">
-            <p>NEWS </p>{" "}
+            <p>News </p>{" "}
           </Link>{" "}
         </div>
         <div className="slide-down">
@@ -166,7 +166,7 @@ const  DashboardHeader=()=> {
                 Telegran
               </Link>
             </div>
-            <p>OUR COMMUNITY</p>
+            <p>Our Community</p>
           </Link>
         </div>
         <div className="slide-down">
@@ -190,7 +190,7 @@ const  DashboardHeader=()=> {
                 White Paper
               </Link>
             </div>
-            <p>MORE</p>{" "}
+            <p>More</p>{" "}
           </Link>
         </div>
         <div className="slide-down">

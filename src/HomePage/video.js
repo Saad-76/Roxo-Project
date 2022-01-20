@@ -15,8 +15,9 @@ const Video = () => {
             platforms{" "}
           </p>
         </div>
+        
       <div className="col-md-6 primary-video">
-          <h5>Video Heading</h5>
+          {/* <h5>Video Heading</h5> */}
           <video
             className="video_section-style"
             src={Crypto33}

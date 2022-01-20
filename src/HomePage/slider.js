@@ -4,7 +4,7 @@ import { Carousel } from "react-bootstrap";
 // import Render6 from "../Assests/render 6.png";
 import ForWebsite from "../Assests/For Website.png";
 import HasteKing  from "../Assests/HasteKing.png";
-
+import SliderImage3 from "../Assests/SliderImage3.png"
 
 // import Render9 from "../Assests/render 9.png";
 // import Render11 from "../Assests/render 11.png";
@@ -34,18 +34,20 @@ const Slider=()=> {
             <Carousel.Item>
               <img
                 className="d-block image-height  w-100"
-                src={HasteKing}
+                src={SliderImage3}
+
                 alt="Third slide"
               />
             </Carousel.Item>
 
-            {/* <Carousel.Item className="carousel-image">
+            <Carousel.Item className="carousel-image">
               <img
                 className="d-block image-height   w-100"
-                src={Render9}
+                src={HasteKing}
+
                 alt="Third slide"
               />
-            </Carousel.Item> */}
+            </Carousel.Item>
           </Carousel>
         </div>
       </div>

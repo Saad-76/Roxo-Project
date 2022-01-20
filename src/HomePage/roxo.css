@@ -24,7 +24,9 @@
 
 }
 .roxo-style{
-  padding: 115px;
+  padding-top: 115px;
+
+  /* padding: 115px; */
 }
 /* .roxo-coin-size{
   height:"150px";

@@ -11,7 +11,7 @@
 .cards-style-test-data{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -39,7 +39,8 @@
     display: none;
 }
 .tes-icon img{ 
-    width: 380Px;    height: 255px;
+    width: 380Px;        height: 220px;
+
  
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -51,8 +52,8 @@
 .tes-scr h4{
     padding-left: 30px;
     color: #1c1e21;
-    padding-top: 20px;
-    font-size: 35px;
+    padding-top: 50px;
+    font-size: 25px;
     font-weight: 700;
     padding-bottom: 20px;
 }
@@ -82,8 +83,10 @@
 }
 .tes-scr p{
     font-size: 20;
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
     padding-top: 0 !important;
+    font-family: auto;
+
     color: grey;
 }
 .tes-btn{

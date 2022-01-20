@@ -8,14 +8,19 @@
 
 }
 .vision-image-size{
-    Width: 875px;
+    /* Width: 875px; */
+    width: 700px;
+
   padding-bottom: 116px;
 }
 .vision-style{
-padding: 27px 0px;}
+/* padding: 27px 0px; */
+padding-top: 80px;
+
+}
 .vision-image-style {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .vision-image-style img{
     /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6); */

@@ -10,7 +10,9 @@
 .video-main-style{
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    padding-top: 80px;
+
 
 }
 .video-text-style{
@@ -36,8 +38,9 @@
 .primary-video{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-right: 47px;
+    /* align-items: center; */
+    /* padding-right: 47px; */
+    align-items: flex-start;
 
 }
 

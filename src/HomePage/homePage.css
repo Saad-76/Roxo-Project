@@ -5,3 +5,11 @@
 /* .body {
     overflow: visible !important;
   } */
+  @font-face {
+    font-family: Ubuntu;
+    src: url(../Assests/Ubuntu-Light.ttf);
+  }
+  @font-face {
+    font-family: Vollkorn;
+    src: url(../Assests/Vollkorn-VariableFont_wght.ttf);
+  }

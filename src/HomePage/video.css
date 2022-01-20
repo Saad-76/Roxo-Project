@@ -1,7 +1,10 @@
 .video_section-style{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
 
-    height: 230px;
+    /* height: 230px; */
+    height: 340px;
+    /* padding-right: 100px; */
+    border-radius: 15px;
 
 }
 .video-main-style{
@@ -27,6 +30,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
 }
 .primary-video{
     display: flex;

@@ -47,7 +47,7 @@ const Header = () => {
           <div className="hover-coin">
             <img className="glowCoin" src={Glowcoin} height="50px"></img>
             <div className="coin-logo">
-              <img src={coinPic} height="70px"></img>
+              <img src={coinPic} height="60px"></img>
               <p>$0.0025</p>
             </div>
           </div>

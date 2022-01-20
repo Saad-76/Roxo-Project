@@ -8,11 +8,11 @@
 
 }
 .vision-image-size{
-    width: 900px;
+    Width: 875px;
+  padding-bottom: 116px;
 }
 .vision-style{
-    padding: 80px 0;
-}
+padding: 27px 0px;}
 .vision-image-style {
     display: flex;
     justify-content: center;

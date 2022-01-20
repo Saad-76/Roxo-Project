@@ -14,8 +14,8 @@ const TesCards = () => {
 
   return (<>
     <div className="cards-nav">
-      <img src={Controllers} height='50'/>
-      <h1>Games</h1>
+      <img src={Controllers} height='80'/>
+      <h1 className="game-heading-cards" >Games</h1>
     </div>
     <div className="tes-card" id="containe">
       <button onClick={Leftscrol} className="tes-btn">

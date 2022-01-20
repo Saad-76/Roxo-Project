@@ -11,12 +11,15 @@
     background: transparent;
     border: none;
 }
-.modalVideo-close-button{
+.modalVideo-close-button button{
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 90px;
+    margin-right: 0px; 
+    left: 47%;
+    bottom: 10%;
 }
 .skip-video{
     text-decoration: none;
@@ -27,3 +30,7 @@
     padding: 5px 10px;
    
 }
+    .modal-dialog {
+      max-width: 50% !important;
+      margin: 1.75rem auto;
+    }

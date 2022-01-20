@@ -57,13 +57,23 @@ justify-content: space-between;
 
 .dashboard-earnings-button{
     padding: 6px 18px;
-  
-    width: 50%;
     border-radius: 12px;
     color: #1c1e21;
     font-weight: bold;
-  
     background-color: #ffffff;
     border:none;
   
 }
+
+@media only screen and (max-width: 800px){
+    .style-card{
+        min-width: 400px;
+        height: 400px;
+        margin-top: 50px
+    }
+    .roxo-play-cards{
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+  }

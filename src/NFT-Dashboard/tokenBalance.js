@@ -21,6 +21,28 @@ const TokenBalance = () => {
             <img src={NftDashboard} alt="game" width="40px" height="40px" />
             <p className="nft-heading">NFTs</p>
           </div>
+        <div className="horizintal-line-style" />
+          <h6 className="balance-transaction-heading"> Transactions</h6>
+          <div className="buy-more">
+            <img src="" width="40px" height="40px" />
+            <p className="buy-more-heading">Buy More</p>
+          </div>
+          <div className="deposit">
+            <img src="" width="40px" height="40px" />
+            <p className="deposit-heading"      data-bs-toggle="modal"
+              data-bs-target="#DepositeModal">Deposit</p>
+          </div>
+          <div className="with-draw">
+            <img src="" width="40px" height="40px" />
+            <p className="with-draw-heading"   data-bs-toggle="modal"
+              data-bs-target="#WithDrawModal">With Draw</p>
+          </div>
+
+          <div className="convert">
+            <img src="" width="40px" height="40px" />
+            <p className="convert-heading"   >Convert</p>
+          </div>
+
         </div>
 
         <div className="col-md-4  ">
@@ -55,7 +77,7 @@ const TokenBalance = () => {
               </div>
             </div>
           </div>
-          <div className="firstCard-button">
+          {/* <div className="firstCard-button">
             <button className="firstCard-button-style">Buy More</button>
             <button
               className="firstCard-button-style"
@@ -71,7 +93,7 @@ const TokenBalance = () => {
             >
               With Draw
             </button>
-          </div>
+          </div> */}
 
           {/* ------------------Third-Cardd---------------- */}
           <div className="thirdCard-main">

@@ -9,7 +9,17 @@
   border-radius: 12px;
 
  }
+ .modal-size{
+  /* max-width: 70% ; */
 
+ }
+.login-image-style{
+  background-image: url("../Assests/LoginForm.jpeg");
+background-size: 50%;
+background-repeat: no-repeat;
+border-bottom-left-radius:12px;
+border-top-left-radius: 12px;
+}
   .btn-style{
     font-size: large;
     font-weight: bold; 
@@ -55,13 +65,13 @@
       justify-content: space-around;
     }
     .register-button-loginForm{
-      margin: 2px 2px;
+      /* margin: 2px 2px; */
       padding: 6px 18px;
     
       color: #1c1e21;
       border-radius: 12px;
       width: 100%;
-    
+  
       background-color: #e4e6eb;
       border:none;
     }

@@ -7,12 +7,15 @@ const ConnectWallet = () => {
   return (
     <>
       <h2 className="connect-heading">Dashboard</h2>
+
       <div className="col-md-12 connect-main-section">
 <div className="col-md-4">
 <div className="connect-GameName">
 <img src={GAME} alt="game" width="40px" height="40px"/>
     <p className="connect-gameName-heading">Game Name</p>
     </div>
+    <div className="horizintal-line-style" />
+
 
 
 </div>

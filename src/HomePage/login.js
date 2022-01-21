@@ -47,18 +47,18 @@ const Login = (props) => {
         centered
         className="modal_main  "
       >
-        <Modal.Body className="modal-padding " >
+        <Modal.Body className="modal-padding  login-image-style " >
         <div className="col-md-12">
               <div className="login-form-style-roxo">
-                <div className="col-md-6 login-image-side">
-                  <h4 className="login-form-heading"> Welcome to ROXO </h4>
-                  <img
+                <div className="col-md-6 login-image-side ">
+                  {/* <h4 className="login-form-heading"> Welcome to ROXO </h4> */}
+                  {/* <img
                     className="login-image"
                     src={LoginForm }
                     alt="logologin"
                     height="250px"
                     width="250px"
-                  />
+                  /> */}
            
                   {/* <Link to="/signUp"> */}
                     <button className="register-button-loginForm "  onClick={SignUpHandler}  >
@@ -69,8 +69,7 @@ const Login = (props) => {
                 <div className="col-md-6 login-form-display">
                   <div>
                     <h3 className="login-fields-heading">
-                      Login to your Account
-                    </h3>
+Members Log in                    </h3>
                   </div>
                   <div className="login-input-fiedls">
                     <input

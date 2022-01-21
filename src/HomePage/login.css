@@ -8,6 +8,7 @@
     padding-right: 46px;  }
  .modal-content{
   border-radius: 12px;
+  
 
  }
  .modal-size{
@@ -50,6 +51,7 @@ border-top-left-radius: 12px;
     }
     .text-login{
       padding: 10px;
+      color: #f359ad ;
     }
     .input-password-login{
       margin: 18px 0px;

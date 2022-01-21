@@ -50,7 +50,7 @@ const Login = (props) => {
         <Modal.Body className="modal-padding  login-image-style " >
         <div className="col-md-12">
               <div className="login-form-style-roxo">
-                <div className="col-md-6 login-image-side ">
+                <div className="col-md-6 login-image-side register-button-position ">
                   {/* <h4 className="login-form-heading"> Welcome to ROXO </h4> */}
                   {/* <img
                     className="login-image"
@@ -102,7 +102,7 @@ Members Log in                    </h3>
                   </div>
                   <p className="have-account">Don’t you have an account?</p>
                   <p className="register-now">
-                    <Link to="/signUp"> Register Now! </Link>
+                    <p onClick={SignUpHandler}> Register Now! </p>
                   </p>
                   {/* <p className="bottom-text-login">It’s really simple
             become part of ROXO Network!

@@ -31,6 +31,6 @@
    
 }
     .modal-dialog {
-      max-width: 50% !important;
+      /* max-width: 50% !important; */
       margin: 1.75rem auto;
     }

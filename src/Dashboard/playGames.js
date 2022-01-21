@@ -1,6 +1,9 @@
 import React from "react";
 import "./playGames.css";
 import GameImage from "../Assests/games.jpg";
+import GameSlider1 from "../Assests/GameSlider1.jpeg"
+import GameSlider2 from "../Assests/GameSlider2.jpeg"
+
 import { Link } from "react-router-dom";
 
 const PlayGames = () => {
@@ -12,12 +15,12 @@ const PlayGames = () => {
           <div className="col-md-4  style-card">
             <div className="rox-play-cards-one">
               <img
-                src={GameImage}
+                src={GameSlider1}
                 alt="gameimage"
                 height="100px "
                 width="150px"
               />
-              <h4>Haste King 3D online</h4>
+              <h3 className="hasteking-heading">Haste King: 3D Online </h3>
               <div className="col-md-6 inner-card-one">
                 <div className="col-md-3">
                   <p>
@@ -44,14 +47,14 @@ const PlayGames = () => {
           <div className="col-md-4 style-card">
             <div className="rox-play-cards-two">
               <img
-                src={GameImage}
+                src={GameSlider2}
                 alt="gameimage"
                 height="100px "
                 width="100px"
               />
-              <h4>Haste King 3D online</h4>
+              <h3 className="playcards-coming" >Coming Soon...</h3>
               <div className="col-md-6 inner-card-two">
-                <div className="col-md-3">
+                {/* <div className="col-md-3">
                   <p>
                     Active <br /> 8223B
                   </p>
@@ -61,20 +64,20 @@ const PlayGames = () => {
                     8.7
                     <br /> Player
                   </p>
-                </div>
+                </div> */}
               </div>
-              <button
+            {/* <Link to="/nftdashboard" > <button
                 className="dashboard-earnings-button"
-                data-bs-toggle="modal"
-                data-bs-target="#EarningModal"
+               
               >
-                {" "}
+   
                 Check Your Earnings
               </button>
+              </Link> */}
             </div>
           </div>
 
-          <div className="col-md-4 style-card">
+          {/* <div className="col-md-4 style-card">
             <div className="rox-play-cards-two">
               <img
                 src={GameImage}
@@ -101,7 +104,7 @@ const PlayGames = () => {
                 <Link to="/nftdashboard"> Check Your Earnings </Link>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

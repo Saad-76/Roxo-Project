@@ -24,8 +24,12 @@
     text-align: justify;
 
 }
-.video-text-style p{
+
+.video-text{
     max-width: 324px;
+    font-family: Monterserat;
+    font-size: 15px;
+    line-height: 1.8;
 }
 .video-section-style{
     display: flex;
@@ -34,6 +38,12 @@
     justify-content: center;
 
 
+}
+.video-text-style h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 .primary-video{
     display: flex;

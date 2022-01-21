@@ -8,7 +8,7 @@
 .roxo-play-cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .rox-play-cards-one{
     display: flex;
@@ -24,6 +24,7 @@
     width: 100%;
 }
 .style-card{
+    margin: 0px 25px;
 
     width:30%;
     border-radius: 5%;
@@ -63,6 +64,12 @@ justify-content: space-between;
     background-color: #ffffff;
     border:none;
   
+}
+.playcards-coming{
+   padding-top: 70px;
+}
+.hasteking-heading{
+padding: 12px;
 }
 
 @media only screen and (max-width: 800px){

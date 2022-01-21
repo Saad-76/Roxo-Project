@@ -12,10 +12,15 @@
   align-items: center;
 }
 .text-style-roxo {
+  font-family: Monterserat;
+  font-size: 15px;
+  line-height: 1.8;
   text-align: justify;
-
-  max-width: 300px;
-  font-family: Vollkorn;
+  /* 1. Text sizes:15px
+  2. Font-family: monterserat.
+  3. Line hight: 1.8
+   */
+  max-width: 345px;
 }
 .roxo-image-section {
   align-items: center;

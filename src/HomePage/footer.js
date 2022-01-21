@@ -33,8 +33,8 @@ const  Footer=()=> {
                 <Link><img src={twitterIcon} height="35px"/></Link>
                 <Link><img src={teleIcon} height="35px"/></Link>
                 </div>
-                <p>Copyright @2022 ROXO, All rights reserved.</p>
-                <p>Terms Of Service | Privacy Policy | Contact Us</p>
+                <p className="footer-copyright">Copyright @2022 ROXO, All rights reserved.</p>
+                <p className="terms-footer">Terms Of Service | Privacy Policy | Contact Us</p>
 
                 </div>
 

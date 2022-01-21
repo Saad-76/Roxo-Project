@@ -124,8 +124,16 @@ padding-right: 1px;
     align-items: flex-end;
 
 }
+.vision-para{
+    font-family: Monterserat;
+    font-size: 15px;
+    line-height: 1.8;
+}
 .freeplay-text{
     padding-right: 12px;
+    font-family: Monterserat;
+    font-size: 15px;
+    line-height: 1.8;
 }
 
 

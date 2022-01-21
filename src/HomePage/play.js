@@ -19,8 +19,8 @@ const Play = () => {
         <div className="col-md-6 play-text-style">
           <div className="play-text-data-style">
             <div className="getNow-style" >
-          <h4>Get it Now.</h4>
-          <p>The experience on any device(ios, android, desktop)</p>
+          <h3>Get it Now.</h3>
+          <p className="play-para">The experience on any device(ios, android, desktop)</p>
           </div>
 
           <div className="col-md-12 first-buttons-style">

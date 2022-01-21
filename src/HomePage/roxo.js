@@ -2,7 +2,6 @@ import React from "react";
 import roxo from "../Assests/roxo.jpg";
 import Coin from "../Assests/Coin.png";
 
-
 import Logo from "../Assests/3.png";
 
 import "./roxo.css";
@@ -11,9 +10,9 @@ const Roxo = () => {
   return (
     <div>
       <div className="roxo-style">
-      <div className="col-md-12 roxo-main-style">
-        <div className="col-md-6 roxo-text-section">
-        {/* <img
+        <div className="col-md-12 roxo-main-style">
+          <div className="col-md-6 roxo-text-section">
+            {/* <img
           
           src={Logo}
           alt="logologin"
@@ -21,23 +20,22 @@ const Roxo = () => {
           height="150px"
           width="150px"
         />    */}
-        <h3 className="roxo-xoin-heading">ROXO COIN</h3>
-               <p className="text-style-roxo">
-            Bitcoin (₿) is a decentralized digital currency, without a central
-            bank or single administrator, that can be sent from user to user on
-            the peer-to-peer bitcoin network without the need for
-            intermediaries. ... Bitcoins are created as a reward for a process
-            known as mining.
-          </p>
-        </div>
-        <div className="col-md-6 roxo-image-section">
-          
-          <img   src={Coin} alt="roxo" height="400px" width="450px" />
-    
+            <h3 className="roxo-xoin-heading">ROXO COIN</h3>
+            <p className="text-style-roxo">
+              ROXO is the first gaming platform that brings power and innovation
+              to the mobile gaming industry where users can play and earn
+              crypto, especially in mobile games. ROXO embed their own
+              multiplayer mobile games to the block-chain world with help of
+              creating an efficient and powerful distribution mechanism with
+              well-built security layers in order to implement the Gamefi
+              ecosystem for the mobile platforms.
+            </p>
+          </div>
+          <div className="col-md-6 roxo-image-section">
+            <img src={Coin} alt="roxo" height="400px" width="450px" />
+          </div>
         </div>
       </div>
-      </div>
-
     </div>
   );
 };

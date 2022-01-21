@@ -6,11 +6,21 @@ const Tescards = (props) => {
     <div className="colum">
         <div class="tes-scr">
           <div className="tes-icon"><a>{props.tesicon}</a></div>
-        <h4>
+         <div className="col-md-12 flex-style-props">
+          <div className="col-md-6 first-card-style">
+        <h3>
           {props.tesheading}
-          </h4>
+          
+          </h3>
+          <h4>{props.secondHeading}</h4>
           <h6>{props.tesheading1}</h6>
-         {/* <div > <button>{props.button}</button> </div> */}
+          </div>
+          <div className="col-md-6 button-col-style">
+          {
+            props.button ?  <button>{props.button}</button>  : ""
+          }
+         </div>
+         </div>
 
         <p className="text-tes text-align-center" style={{width:'400px'}}> {props.testext}</p>
         </div>

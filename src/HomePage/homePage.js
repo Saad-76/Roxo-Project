@@ -9,7 +9,7 @@ import Play from "./play"
 import TesCards from "./TesCards"
 import Login from "./login"
 import SignUp from "./signUp"
-import FontTest from "./fontTest"
+// import FontTest from "./fontTest"
 // import ModalOpen from "../ModalSignUp/modalSignUp"
 // import LoginModal from "../Login-Modal/loginModal"
 
@@ -25,7 +25,7 @@ const HomePage=()=> {
             <Header/>
             <SignUp/>
             <Login/>
-            <FontTest/>
+            {/* <FontTest/> */}
             {/* <ModalOpen/> */}
             {/* <LoginModal/> */}
             <Slider/>

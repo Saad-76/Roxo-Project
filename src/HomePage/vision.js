@@ -25,7 +25,7 @@ const Vision = () => {
           <p className="freeplay-text">Free to play Play to Earn</p>
           </div>
           </div>
-          <p>
+          <p className="vision-para">
             Our vision is that no NFT metaverse should be singular but rather
             each metaverse can be interconnected each unique NFT increased utility through NFT interoperability between games and platforms
           </p>

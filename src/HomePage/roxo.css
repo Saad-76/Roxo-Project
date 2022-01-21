@@ -5,6 +5,9 @@
 .roxo-text-section {
   color: #1c1e21;
   display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -22,6 +25,9 @@
 .roxo-image-section img{
   /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6); */
 
+}
+.roxo-xoin-heading{
+  padding: 18px;
 }
 .roxo-style{
   padding-top: 115px;

@@ -13,14 +13,16 @@ const Roxo = () => {
       <div className="roxo-style">
       <div className="col-md-12 roxo-main-style">
         <div className="col-md-6 roxo-text-section">
-        <img
+        {/* <img
           
           src={Logo}
           alt="logologin"
           className="roxo-coin-size"
           height="150px"
           width="150px"
-        />          <p className="text-style-roxo">
+        />    */}
+        <h3 className="roxo-xoin-heading">ROXO COIN</h3>
+               <p className="text-style-roxo">
             Bitcoin (₿) is a decentralized digital currency, without a central
             bank or single administrator, that can be sent from user to user on
             the peer-to-peer bitcoin network without the need for

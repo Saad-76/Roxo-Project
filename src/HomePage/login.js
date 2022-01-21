@@ -61,9 +61,9 @@ const Login = (props) => {
                   /> */}
            
                   {/* <Link to="/signUp"> */}
-                    <button className="register-button-loginForm "  onClick={SignUpHandler}  >
+                    {/* <button className="register-button-loginForm "  onClick={SignUpHandler}  >
                       Sign Up!
-                    </button>
+                    </button> */}
                   {/* </Link> */}
                 </div>
                 <div className="col-md-6 login-form-display">
@@ -72,6 +72,7 @@ const Login = (props) => {
 Members Log in                    </h3>
                   </div>
                   <div className="login-input-fiedls">
+                    <p className="text-login"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <input
                       className="input-email-login"
                       type="email"

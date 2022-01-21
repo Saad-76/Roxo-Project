@@ -3,8 +3,9 @@
 
   
   .modal-padding{
-    padding: 50px 46px;
-  }
+    padding-top: 50px;
+    padding-left: 46px;
+    padding-right: 46px;  }
  .modal-content{
   border-radius: 12px;
 
@@ -15,7 +16,7 @@
  }
 .login-image-style{
   background-image: url("../Assests/LoginForm.jpeg");
-background-size: 47%;
+background-size: 40%;
 background-repeat: no-repeat;
 border-bottom-left-radius:12px;
 border-top-left-radius: 12px;
@@ -37,7 +38,7 @@ border-top-left-radius: 12px;
     }
     
     .input-email-login{
-      margin-top: 8%;
+      margin-top: 4%;
       padding: 6px 18px;
     
       color: #1c1e21;
@@ -46,6 +47,9 @@ border-top-left-radius: 12px;
       border-radius: 12px;
       width: 100%;
     
+    }
+    .text-login{
+      padding: 10px;
     }
     .input-password-login{
       margin: 18px 0px;
@@ -92,8 +96,8 @@ border-top-left-radius: 12px;
   
       color: #1c1e21;
     
-      background-color: #fcb103;
-      border:none;
+      background: rgb(222,153,33);
+      background: linear-gradient(90deg, rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);      border:none;
     
     
     }
@@ -114,6 +118,7 @@ border-top-left-radius: 12px;
     }
     .register-now{
       padding: 0px 70px;
+      color: blue;
     
     }
     

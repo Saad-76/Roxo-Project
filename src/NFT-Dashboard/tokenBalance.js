@@ -3,6 +3,13 @@ import "./tokenBalance.css";
 import RoxoCoin from "../Assests/3.png";
 import NftDashboard from "../Assests/NftDashboard.png";
 import Dashboard from "../Assests/Dashboard.png";
+import BuyMore from "../Assests/BuyMore.png"
+import Convert from "../Assests/Convert.png"
+import WithDraw from "../Assests/WithDraw.png"
+import Deposit from "../Assests/Deposit.png"
+
+
+
 
 const TokenBalance = () => {
   return (
@@ -22,24 +29,26 @@ const TokenBalance = () => {
             <p className="nft-heading">NFTs</p>
           </div>
         <div className="horizintal-line-style" />
-          <h6 className="balance-transaction-heading"> Transactions</h6>
+          <h6 className="balance-roxo-heading"> ROXO Token</h6>
+          <div className="horizintal-line-Roxotoken-botttom" />
+
           <div className="buy-more">
-            <img src="" width="40px" height="40px" />
+            <img src={BuyMore} width="40px" height="40px" />
             <p className="buy-more-heading">Buy More</p>
           </div>
           <div className="deposit">
-            <img src="" width="40px" height="40px" />
+            <img src={Deposit} width="40px" height="40px" />
             <p className="deposit-heading"      data-bs-toggle="modal"
               data-bs-target="#DepositeModal">Deposit</p>
           </div>
           <div className="with-draw">
-            <img src="" width="40px" height="40px" />
+            <img src={WithDraw} width="40px" height="40px" />
             <p className="with-draw-heading"   data-bs-toggle="modal"
               data-bs-target="#WithDrawModal">With Draw</p>
           </div>
 
           <div className="convert">
-            <img src="" width="40px" height="40px" />
+            <img src={Convert} width="40px" height="40px" />
             <p className="convert-heading"   >Convert</p>
           </div>
 

@@ -12,11 +12,11 @@ const DepositeModal=()=> {
       aria-labelledby="EarningModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-size-deposit">
         <div class="modal-content">
          
           <div class="modal-style">
-        <h6 className="depositeModal-heading">Deposite:</h6>
+        <h6 className="depositeModal-heading">Deposit:</h6>
         <div className="depositModal-makeSure" >
             <h6>Make Sure:</h6>
             <p>1. Send only ROXO to this deposit address.</p>
@@ -25,16 +25,29 @@ const DepositeModal=()=> {
 
         <div className="deposit-address">
             <h6>Address: </h6>
-            <p className="address-field" >0x00000000000000000000000000000000000</p>
+            <input  className="address-field" type="text" placeholder="0x00000000000000000000000000000000000" />
         </div>
 
-        <div className="deposit-network">
-            <h6>Select Network: </h6>
-            <p className="network-field">Ensure the network is same while sending.</p>
+        <div className="deposit-network col-md-4">
+           <h6>Select Network: </h6> 
+            {/* <input className="network-field" placeholder="Ensure the network is same while sending."/> */}
+<div>
+     <select
+              className="network-field"
+              
+            >
+      
+              <option selected>Ensure the network is same while sending.</option>
+              <option value="Customer">Customer</option>
+              <option value="Employee">Employee </option>
+            </select>
+          </div>
+
+
         </div>
 
         <div className="deposit-minimum">
-            <h6>Minimum Deposit: </h6>
+            <p>Minimum Deposit: </p>
             <p className="minimumDeposite-field">0.2342 ROXO</p>
         </div>
 

@@ -12,7 +12,7 @@ const WithDrawModal=()=> {
       aria-labelledby="EarningModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-size-withDraw">
         <div class="modal-content">
          
         <div class="withDraw-modal-style">

@@ -19,8 +19,11 @@ const Vision = () => {
         </div>
         <div className="col-md-4 vision-text-style">
           <div className="vision-text-data-style">
-        <div className="visiion-upper-text">  <h3>Our Vision</h3>
-          <p>Free to play Play to Earn</p>
+        <div className="visiion-upper-text"> 
+        <div className="vision-upper-flex">
+         <h3>Our Vision</h3>
+          <p className="freeplay-text">Free to play Play to Earn</p>
+          </div>
           </div>
           <p>
             Our vision is that no NFT metaverse should be singular but rather

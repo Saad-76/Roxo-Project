@@ -32,15 +32,14 @@ const TesCards = () => {
         tesicon={<img src={GameSlider1}  height='150px'/>}
       
         tesheading="Haste King"
-
-        tesheading1={<p>Real PVP running battle  <button > View</button></p>}
+              tesheading1={<p>Real PVP running battle  </p>}
 
       
       />
       <Tescards
         tesicon={<img src={GameSlider2} />}
-        tesheading="The Stupi"
-        tesheading1={<p>Real PVP running battle </p>}
+        tesheading="Coming Soon "
+        // tesheading1={<p>Coming Soon... </p>}
 
       />
       </div>

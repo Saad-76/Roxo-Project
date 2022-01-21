@@ -19,13 +19,13 @@
   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     text-align: justify;
 
 }
 .video-text-style p{
-    max-width: 300px;
+    max-width: 324px;
 }
 .video-section-style{
     display: flex;
@@ -40,7 +40,7 @@
     flex-direction: column;
     /* align-items: center; */
     /* padding-right: 47px; */
-    align-items: flex-start;
+    align-items: center;
 
 }
 

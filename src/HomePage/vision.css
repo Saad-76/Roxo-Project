@@ -40,10 +40,8 @@ padding-top: 80px;
 max-width: 300px;
 }
 .visiion-upper-text{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    border: 10px solid;
+  
+    /* border: 10px solid;
     border-image-slice: 1;
     border-width: 5px;
     border-image-source: linear-gradient(to left, #743ad5, #ce0183);
@@ -56,8 +54,79 @@ padding-right: 20px;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: flex-end;
-}
+    position: relative;
+    padding-left: 12px; */
 
+
+    border: 10px solid rgb(24, 224, 231);
+    border-image-slice: 1;
+    border-width: 5px;
+    /* border-image-source: linear-gradient(to left, #743ad5, #ce0183); */
+    /* border-image-source: rgb(23, 169, 189); */
+    padding-right: 4px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    position: relative;
+    padding-left: 6px;
+    /* position: relative; */
+    /* border: 5px solid #f00; */
+    /* position: relative; */
+    /* border: 5px solid #f00; */
+
+    
+}
+/* .visiion-upper-text{
+    border: 1px solid #000;
+    position: relative;
+    padding-left: 12px;
+} */
+.visiion-upper-text::before{
+    /* position: absolute;
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #ce0183);
+padding-left: 10px;
+padding-right: 1px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-end; */
+    position: absolute;
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 10px solid rgb(24, 224, 231);
+    border-image-slice: 1;
+    border-width: 2px;
+    /* border-image-source: linear-gradient(to left, #743ad5, #ce0183); */
+    padding-left: 10px;
+    padding-right: 1px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-end;
+
+}
+.freeplay-text{
+    padding-right: 12px;
+}
 
 
 

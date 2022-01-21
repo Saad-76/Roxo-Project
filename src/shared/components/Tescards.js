@@ -10,7 +10,7 @@ const Tescards = (props) => {
           {props.tesheading}
           </h4>
           <h6>{props.tesheading1}</h6>
-       
+         {/* <div > <button>{props.button}</button> </div> */}
 
         <p className="text-tes text-align-center" style={{width:'400px'}}> {props.testext}</p>
         </div>

@@ -1,17 +1,46 @@
 .footer-flex{
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     /* justify-content: space-between; */
-    align-items: center;
+    /* align-items: center; */
 }
 .footer-icons-style{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-top: 350px;
-
+background-color: rgba(0,0,0,0.1);
+padding: 20px 0px;
+/* background-color: white; */
     align-items: center;
 }
 .margin{
     /* padding-left: 12px; */
 }
+.roxo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image-style{
+    background: url("../Assests/FooterLeft.png") bottom left no-repeat, url("../Assests/FooterRight.png") bottom right no-repeat ;
+    /* padding: 15px; */
+    background-size: 450px, 450px;
+    padding-top: 15px;
+
+    /* background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: green;
+     */
+}
+
+/* .footer-image-left-style{
+    background-image: url("../Assests/FooterLeft.png");
+    background-size: cover;
+    width:600px ;
+    background-repeat: no-repeat;
+    background-position:  left;
+   
+    
+} */

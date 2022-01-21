@@ -25,7 +25,8 @@
 }
 .style-card{
     margin: 0px 25px;
-
+    display: flex;
+    flex-direction: column;
     width:30%;
     border-radius: 5%;
     height: 380px;
@@ -58,12 +59,13 @@ justify-content: space-between;
 
 .dashboard-earnings-button{
     padding: 6px 18px;
-    border-radius: 12px;
+    border-radius: 20px;
     color: #1c1e21;
     font-weight: bold;
-    background-color: #ffffff;
     border:none;
-  
+    position: absolute;
+    bottom: -267px;
+    width: 450px;
 }
 .playcards-coming{
    padding-top: 70px;

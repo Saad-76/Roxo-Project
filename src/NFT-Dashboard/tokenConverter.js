@@ -22,7 +22,7 @@ const TokenConverter=()=> {
     <div className="col-md-6 convert-roxo-allData">
 <img src={Image3} alt="Image3" height="100x" width="100px"/>
 <div className="roxo-coin-converter">
-    <p>Roxo Coin</p>
+    <h6>Roxo Coin</h6>
     <p>1783.12 ROXO</p>
 </div>
     </div>
@@ -34,7 +34,7 @@ const TokenConverter=()=> {
     <div className="col-md-6  convert-gameCoin-allData">
     <img src={Coin} alt="Image3" height="80x" width="80px"/>
 <div className="game-coin-converter">
-    <p>Game Coin</p>
+    <h6>Game Coin</h6>
     <p>778622</p>
 </div>
  

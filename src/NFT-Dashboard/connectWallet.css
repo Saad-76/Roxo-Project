@@ -66,3 +66,13 @@
     margin: 0;
     
 }
+.connect-address-section p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
+}
+.connect-address-section button{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
+}

@@ -24,7 +24,7 @@ const ConnectWallet = () => {
 <div className="background-connectWallet">
       <div className="connect-address-section">
         <div>
-          <p>Public Address:</p>
+          <h6>Public Address:</h6>
         </div>
         <div>
           <p> 0x000000000000000000000000000000000 </p>

@@ -10,8 +10,15 @@
   padding: 20px 0px;
 
 }
-.roxo-coin-converter{
-
+.roxo-coin-converter p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
+}
+.game-coin-converter p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
 }
 .convert-roxo-allData{
     display: flex;
@@ -59,6 +66,8 @@
 }
 .token-convert-button-style{
    /* margin: 2px 2px; */
+   font-size: 15px;
+    font-family: monterserat;
    padding: 6px 18px;
    /* margin: 4% 0; */
    color: #1c1e21;

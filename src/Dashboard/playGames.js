@@ -43,7 +43,9 @@ const PlayGames = () => {
               </button>
             </div>
           </div>
-
+{/* ---------------------------------------------------------------------------------------------------------- */}
+      
+         
           <div className="col-md-4 style-card">
             <div className="rox-play-cards-two">
               <img
@@ -66,16 +68,24 @@ const PlayGames = () => {
                   </p>
                 </div> */}
               </div>
-            {/* <Link to="/nftdashboard" > <button
+            <Link to="/nftdashboard" > <button
                 className="dashboard-earnings-button"
                
               >
    
                 Check Your Earnings
               </button>
-              </Link> */}
+              </Link>
             </div>
+
           </div>
+          
+        
+
+          
+    
+            
+        
 
           {/* <div className="col-md-4 style-card">
             <div className="rox-play-cards-two">

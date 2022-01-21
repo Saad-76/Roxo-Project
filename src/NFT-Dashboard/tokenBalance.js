@@ -65,7 +65,7 @@ const TokenBalance = () => {
                     17832.12 ROXO
                   </p>
                 </div>
-                <p>Token value in</p>
+                <h6>Token value in</h6>
                 <div className="token-value">
                   <p>
                     3223
@@ -108,13 +108,13 @@ const TokenBalance = () => {
           <div className="thirdCard-main">
             <div className="third-card-set">
               <div className="thirdCard-backColor">
-                <h6>NFTs balance</h6>
+                <h5>NFTs balance</h5>
                 <div className="balance-thirdCard-data">
-                  <p>Total NFTs OWN:</p>
+                  <h6>Total NFTs OWN:</h6>
                   <p>300</p>
                 </div>
                 <div className="balance-thirdCard-data">
-                  <p>Total value:</p>
+                  <h6>Total value:</h6>
                   <p>
                     2.31 ETH <br /> ($8733.12)
                   </p>
@@ -142,29 +142,29 @@ const TokenBalance = () => {
                 <button className="convert-button-secondCard">Convert</button>
               </div>
               <div className="global-rank">
-                <p>Global Rank</p>
+                <h6>Global Rank</h6>
                 <p>3</p>
               </div>
               <div className="balance-stats-button">
                 <button> Stats</button>
               </div>
               <div className="stat-fields">
-                <p>Total Score:</p>
+                <h6>Total Score:</h6>
                 <p>27482</p>
               </div>
 
               <div className="stat-fields">
-                <p>Total Races:</p>
+                <h6>Total Races:</h6>
                 <p>1322</p>
               </div>
 
               <div className="stat-fields">
-                <p>Race Wons:</p>
+                <h6>Race Wons:</h6>
                 <p>1933</p>
               </div>
 
               <div className="stat-fields">
-                <p>Race Loses:</p>
+                <h6>Race Loses:</h6>
                 <p>339</p>
               </div>
             </div>

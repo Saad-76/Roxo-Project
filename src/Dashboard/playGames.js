@@ -34,15 +34,16 @@ const PlayGames = () => {
                   </p>
                 </div>
               </div>
-              <button
+              
+            </div>
+          
+            <button
                 className="dashboard-earnings-button"
                 data-bs-toggle="modal"
                 data-bs-target="#EarningModal"
               >
                 Check Your Earnings
-              </button>
-            </div>
-          </div>
+              </button></div>
 {/* ---------------------------------------------------------------------------------------------------------- */}
       
          
@@ -68,6 +69,9 @@ const PlayGames = () => {
                   </p>
                 </div> */}
               </div>
+            
+            </div>
+
             <Link to="/nftdashboard" > <button
                 className="dashboard-earnings-button"
                
@@ -75,10 +79,7 @@ const PlayGames = () => {
    
                 Check Your Earnings
               </button>
-              </Link>
-            </div>
-
-          </div>
+              </Link></div>
           
         
 

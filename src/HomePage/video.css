@@ -15,14 +15,14 @@
 
 
 }
-.video-text-style{
-  
+.video-text-style {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    align-items: center;
+    padding-left: 8%;
     flex-direction: column;
     text-align: justify;
-
 }
 
 .video-text{
@@ -52,6 +52,12 @@
     /* padding-right: 47px; */
     align-items: center;
 
+}
+.how-video-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 /* --------------------full width and your height style---------------- */

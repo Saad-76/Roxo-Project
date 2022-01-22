@@ -7,7 +7,7 @@ const Video = () => {
     <div>
       <div className="col-md-12  video-main-style">
       <div className="col-md-4 video-text-style">
-          <h3> How it Works? </h3>
+          <h3 className="how-video-style"> How it Works? </h3>
           <p className="video-text">
             5 simple steps to earn with ROXO platform!
             {/* All data Our vision is that no NFT metaverse should be singular but

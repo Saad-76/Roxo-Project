@@ -12,10 +12,18 @@ const VideoModal = () => {
         aria-labelledby="EarningModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-size-video">
           <div class="modal-content video-background">
-            <div class="modal-body ">
-            <div     className="modalVideo-close-button">
+            <div class="modal-body  modalVideo">
+           
+              <video
+                className="video-size"
+                src={Crypto33}
+                loop={true}
+                muted={true}
+                autoPlay={true}
+              />
+              <div     className="modalVideo-close-button">
               <button
                 type="button"
             className="skip-video"
@@ -24,14 +32,6 @@ const VideoModal = () => {
                 Skip Video
               </button>
               </div>
-              <video
-                className="modalVideo"
-                src={Crypto33}
-                loop={true}
-                muted={true}
-                autoPlay={true}
-              />
-             
             </div>
           </div>
         </div>

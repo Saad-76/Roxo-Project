@@ -12,7 +12,7 @@ const EarningsModal = () => {
         aria-labelledby="EarningModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
+        <div class="modal-dialog earning-modal-size">
           <div class="modal-content modal-border-style">
             <div class="earning-modal-body ">
               <div class=" col-md-12 earning-modal-style ">

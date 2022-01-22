@@ -31,3 +31,7 @@
     background-color: #e4e6eb;
     border:none;
 }
+.earning-modal-size{
+    max-width: 50% !important;
+
+}

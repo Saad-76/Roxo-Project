@@ -21,17 +21,17 @@ const WithDrawModal=()=> {
 
         <div className="withDraw-address">
             <h6>WithDraw Address: </h6>
-            <p className="withdraw-address-field" >0x00000000000000000000000000000000000</p>
+            <input className="withdraw-address-field" placeholder="0x00000000000000000000000000000000000" />
         </div>
 
         <div className="withDraw-network">
             <h6>Select Network: </h6>
-            <p className="withDraw-network-field">Ensure the network is same while sending.</p>
+            <input className="withDraw-network-field" placeholder="Ensure the network is same while sending."/>
         </div>
 
         <div className="withDraw-Amount">
             <h6>WithDraw Amount: </h6>
-            <p className="withDraw-Amount-field">0.2342 ROXO</p>
+            <input className="withDraw-Amount-field" placeholder="0.2342 ROXO"/>
         </div>
         <div className="withDraw-Receive">
             <h6>Receive Amount: </h6>

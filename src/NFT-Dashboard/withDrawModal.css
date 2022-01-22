@@ -2,7 +2,7 @@
     /* padding: 56px; */
     padding: 6px;
    
-    padding-bottom: 12px;
+    padding-bottom: 21px;
 
 }
 .withDraw-address{
@@ -49,18 +49,26 @@
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
+    
+border: none;
+width: 64%;
 }
 .withDraw-network-field{
-    margin-left: 12px;
+    margin-left: 32px;
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
+    border: none;
+width: 64%;
 }
 .withDraw-Amount-field{
     margin-left: 12px;
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
+    border: none;
+width: 64%;
+
 }
 .withDraw-recieve-field{
     margin-left: 12px;

@@ -1,35 +1,86 @@
-.card-background{
-    margin: 0px 25px;
-
-    width:60%;
-    border-radius: 5%;
-    height: 380px;
+.background-cards{
     background-color: #e4e6eb ;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+    height: 400px;
+    border-radius: 12px;
 }
-.main-card-flex{
+.cards-image-size{
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.column-size{
+    width: 30%;
+}
+.display-main-flex{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
-.image-size{
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    background-color: #e4e6eb;
-}
-.card-one-style{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.cards-space-betweeen{
+    margin-left: 60px;
+
 }
 .inner-data-style{
     display: flex;
     flex-direction: row;
+    padding: 4px 40px;
+    font-size: 15px;
+    font-family: monterserat;
+
     justify-content: space-between;
 }
-.display-flex-data{
+.button-display-style{
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+.checkEarnings-inner-button{
+
+    font-size: 15px;
+    font-family: monterserat;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #1c1e21;
+    font-weight: bold;
+    background-color:  #e4e6eb;
+    border:none;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+
+    width: 100%;
+}
+.checkEarnings-inner-button a{
+    text-decoration: none;
+    color: black;
+}
+.first-card-heading{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 20px 0px;
+}
+.second-card-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14%;
+}
+
+.roxo-play-heading-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.roxo-play-parent{
+    padding: 30px 0px;
 }

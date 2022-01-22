@@ -35,11 +35,20 @@ justify-content: center;
     text-decoration: none;
     border-radius: 8px;
     color: #fcfcfc;
-    background-color: #d11a2a;
-    border: none;
+    /* background-color: #d11a2a; */
+    background: transparent;
+    /* border: 5px solid #d11a2a; */
+    border-color:  #d11a2a ;
+    /* border: none; */
     padding: 5px 10px;
    
 }
+
+  
+  .skip-video:hover {
+    background: #d11a2a;
+    color: white;
+  }
     .modal-dialog {
       /* max-width: 50% !important; */
       /* margin: 1.75rem auto; */

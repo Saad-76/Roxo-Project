@@ -4,19 +4,23 @@ import GameSlider1 from "../Assests/GameSlider1.jpeg";
 import GameSlider2 from "../Assests/GameSlider2.jpeg";
 import { GiPlainCircle } from "react-icons/gi";
 import { BsCoin } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 
 const RoxoPlay = () => {
   return (
-    <div>
-      <h1>Roxo Play</h1>
-      <div className="col-md-12 main-card-flex">
-
-  <div className="display-flex-data">        
-   <div>       
-        <div className="col-md-6 card-one-style">
-          <div className="card-background">
-            <img className="image-size" src={GameSlider1} alt="gameimage" />
-            <h3> Haste King: 3D Online</h3>
+    <>
+    <div className="roxo-play-parent">
+      <h3 className="roxo-play-heading-style">Roxo Play To Earn Games</h3>
+      <div className="col-md-12 display-main-flex">
+        <div className="col-md-6 column-size ">
+          <div className="background-cards">
+            <img
+              src={GameSlider1}
+              alt="gameslider1"
+              className="cards-image-size"
+            />
+            <h3 className="first-card-heading">Haste King:3D Online</h3>
             <div className="inner-data-style">
               <div>
                 <p>
@@ -33,22 +37,25 @@ const RoxoPlay = () => {
               </div>
             </div>
           </div>
-</div>
-          <div> Button</div>
 
-</div>
+          <div className="button-display-style">
+            <button className="checkEarnings-inner-button"  data-bs-toggle="modal"
+                data-bs-target="#EarningModal">Check Your Earnings</button>
+          </div>
         </div>
 
-
-        <div className="col-md-6">
-          <div className="card-background">
-            <img className="image-size" src={GameSlider2} alt="gameimage" />
-            <h3>Coming Soon...</h3>
+        <div className="col-md-6 column-size cards-space-betweeen">
+          <div className="background-cards">
+            <img src={GameSlider2} alt="" className="cards-image-size" />
+            <h3 className="second-card-heading">Coming Soon...</h3>
           </div>
-          <div> Button</div>
+          <div className="button-display-style">
+          <button className="checkEarnings-inner-button" >  <Link to="/nftdashboard" >Check Your Earnings</Link></button> 
+          </div>
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import React from "react";
 import "./playGames.css";
-import GameImage from "../Assests/games.jpg";
 import GameSlider1 from "../Assests/GameSlider1.jpeg"
 import GameSlider2 from "../Assests/GameSlider2.jpeg"
+import {GiPlainCircle} from "react-icons/gi"
+import {BsCoin} from "react-icons/bs"
+
 
 import { Link } from "react-router-dom";
 
@@ -21,16 +23,16 @@ const PlayGames = () => {
                 width="150px"
               />
               <h3 className="hasteking-heading">Haste King: 3D Online </h3>
-              <div className="col-md-6 inner-card-one">
-                <div className="col-md-3">
-                  <p>
-                    Active <br /> 8223B
+              <div className="col-md-12 inner-card-one">
+                <div className="col-md-6">
+                  <p className="activer-user-style">
+                <GiPlainCircle/>    Active User<br /> 82238
                   </p>
                 </div>
-                <div className="col-md-3">
-                  <p>
-                    8.7
-                    <br /> Player
+                <div className="col-md-6">
+                  <p className="total-earnings-style">
+                   <BsCoin/> 8.7 M
+                    <br /> Total Earnings
                   </p>
                 </div>
               </div>
@@ -43,6 +45,7 @@ const PlayGames = () => {
               </button>
             </div>
           </div>
+          
 {/* ---------------------------------------------------------------------------------------------------------- */}
       
          

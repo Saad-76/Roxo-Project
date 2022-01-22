@@ -15,8 +15,8 @@ const DepositeModal=()=> {
       <div class="modal-dialog modal-size-deposit">
         <div class="modal-content">
          
-          <div class="modal-style">
-        <h6 className="depositeModal-heading">Deposit:</h6>
+          <div class="modal-style deposit-modal-inner-height">
+        <h5 className="depositeModal-heading">Deposit:</h5>
         <div className="depositModal-makeSure" >
             <h6>Make Sure:</h6>
             <p>1. Send only ROXO to this deposit address.</p>

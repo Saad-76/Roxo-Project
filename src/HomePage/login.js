@@ -72,7 +72,9 @@ const Login = (props) => {
 Members Log in                    </h3>
                   </div>
                   <div className="login-input-fiedls">
-                    <p className="text-login"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p className="text-login"> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p className="text-login-second">Lorem ipsum dolor sit amet  adipiscing </p>
+
                     <input
                       className="input-email-login"
                       type="email"
@@ -103,7 +105,7 @@ Members Log in                    </h3>
                   </div>
                   <p className="have-account">Don’t you have an account?</p>
                   <p className="register-now">
-                    <p onClick={SignUpHandler}> Register Now! </p>
+                    <button onClick={SignUpHandler}> Register Now! </button>
                   </p>
                   {/* <p className="bottom-text-login">It’s really simple
             become part of ROXO Network!

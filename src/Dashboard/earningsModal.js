@@ -1,6 +1,6 @@
 import React from "react";
 import "./earningModal.css";
-import GameImage from "../Assests/games.jpg";
+import GameImage from "../Assests/GameSlider1.jpeg";
 
 const EarningsModal = () => {
   return (

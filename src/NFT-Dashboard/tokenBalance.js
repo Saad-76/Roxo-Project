@@ -38,13 +38,13 @@ const TokenBalance = () => {
           </div>
           <div className="deposit">
             <img src={Deposit} width="40px" height="40px" />
-            <p className="deposit-heading"      data-bs-toggle="modal"
-              data-bs-target="#DepositeModal">Deposit</p>
+            <button className="deposit-heading"      data-bs-toggle="modal"
+              data-bs-target="#DepositeModal">Deposit</button>
           </div>
           <div className="with-draw">
             <img src={WithDraw} width="40px" height="40px" />
-            <p className="with-draw-heading"   data-bs-toggle="modal"
-              data-bs-target="#WithDrawModal">With Draw</p>
+            <button className="with-draw-heading"   data-bs-toggle="modal"
+              data-bs-target="#WithDrawModal">With Draw</button>
           </div>
 
           <div className="convert">

@@ -10,6 +10,21 @@
     align-items: center;
     justify-content: center;
 }
+.earning-game-data img{
+    border-radius: 12px;
+}
+.earning-modal-style h5{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
+}
+.earning-modal-style p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: monterserat;
+}
+
+
 .earning-modal-steps{
     font-weight: 400px;
     font-size: 20px;
@@ -32,6 +47,6 @@
     border:none;
 }
 .earning-modal-size{
-    max-width: 50% !important;
+    max-width: 56.5% !important;
 
 }

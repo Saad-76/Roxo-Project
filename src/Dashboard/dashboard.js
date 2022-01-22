@@ -5,6 +5,8 @@ import PlayGames from "./playGames";
 import DashboardHeader from "./dashboardHeader";
 import EarningModal from "./earningsModal"
 import VideoModal from "./videoModal"
+import RoxoPlay from "./roxoPlay"
+
 
 
 const Dashboard = () => {
@@ -12,9 +14,11 @@ const Dashboard = () => {
     <div>
       <DashboardHeader/>
       <Welcome />
+      <RoxoPlay/>
       <PlayGames />
       <EarningModal/>
       <VideoModal/>
+    
     </div>
   );
 };

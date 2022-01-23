@@ -278,6 +278,8 @@
     line-height: 1.8;
     font-family: monterserat;
     margin: 0;
+    border: none;
+    background: none;
 }
 .nft-heading{
 
@@ -286,6 +288,8 @@
     line-height: 1.8;
     font-family: monterserat;
     margin: 0;
+    border: none;
+    background: none;
 }
 
 .balance-dashboard{
@@ -369,6 +373,8 @@
     line-height: 1.8;
     font-family: monterserat;
     margin: 0;
+    border: none;
+    background: none;
 }
 .deposit-heading{
     padding-left: 14px;
@@ -394,6 +400,8 @@
     line-height: 1.8;
     font-family: monterserat;
     margin: 0;
+    border: none;
+    background: none;
 }
 
 .buy-more:hover{
@@ -464,3 +472,20 @@
     line-height: 1.8;
     font-family: monterserat;
 }
+.token-valueIn{
+padding-left: 20px;
+}
+.ETH-style{
+    padding-left: 40px;
+
+}
+.BTC-style{
+    padding-left: 40px;
+
+}
+.token-main-headings{
+}
+.token-sub-headings{
+    
+}
+

@@ -24,15 +24,15 @@ const RoxoPlay = () => {
             <div className="inner-data-style">
               <div>
                 <p>
-                  <GiPlainCircle /> Active User
-                  <br /> 82238
+                  <span className="dot"/>  82238
+                  <br /> <b> Active User </b>
                 </p>
               </div>
 
               <div>
                 <p>
                   <BsCoin /> 8.7 M
-                  <br /> Total Earnings
+                  <br /> <b> Total Earnings </b>
                 </p>
               </div>
             </div>

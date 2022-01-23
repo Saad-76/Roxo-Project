@@ -76,3 +76,13 @@
     line-height: 1.8;
     font-family: monterserat;
 }
+.copy-icon-connect{
+    border: none;
+    background: none;
+}
+/* .wallet-address-connect{
+    border: none;
+    width: 120%;
+    background-color: #e4e6eb;
+    border-radius: 12px;
+} */

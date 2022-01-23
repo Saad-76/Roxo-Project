@@ -1,5 +1,9 @@
 import React from 'react'
 import "./depositeModal.css"
+import {ImCopy} from "react-icons/im"
+import {BiQrScan} from "react-icons/bi"
+
+
 
 const DepositeModal=()=> {
     return (
@@ -26,6 +30,11 @@ const DepositeModal=()=> {
         <div className="deposit-address">
             <h6>Address: </h6>
             <input  className="address-field" type="text" placeholder="0x00000000000000000000000000000000000" />
+            <button className="copy-icon-depositModal"> <ImCopy size={20}/> </button>
+            <button className="scan-icon-depositModal"> <BiQrScan size={20}/> </button>
+
+
+
         </div>
 
         <div className="deposit-network col-md-4">

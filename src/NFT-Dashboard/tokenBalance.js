@@ -20,13 +20,13 @@ const TokenBalance = () => {
           <div className="balance-dashboard">
             
             <img src={Dashboard} alt="game" width="40px" height="40px" />
-            <p className="dashboard-heading">Dashboard</p>
+            <button className="dashboard-heading">Dashboard</button>
        
           </div>
           </div>
           <div className="nft-dashboard">
             <img src={NftDashboard} alt="game" width="40px" height="40px" />
-            <p className="nft-heading">NFTs</p>
+            <button className="nft-heading">NFTs</button>
           </div>
         <div className="horizintal-line-style" />
           <h6 className="balance-roxo-heading"> ROXO Token</h6>
@@ -34,7 +34,7 @@ const TokenBalance = () => {
 
           <div className="buy-more">
             <img src={BuyMore} width="40px" height="40px" />
-            <p className="buy-more-heading">Buy More</p>
+            <button className="buy-more-heading">Buy More</button>
           </div>
           <div className="deposit">
             <img src={Deposit} width="40px" height="40px" />
@@ -49,7 +49,7 @@ const TokenBalance = () => {
 
           <div className="convert">
             <img src={Convert} width="40px" height="40px" />
-            <p className="convert-heading"   >Convert</p>
+            <button className="convert-heading"   >Convert</button>
           </div>
 
         </div>
@@ -61,23 +61,23 @@ const TokenBalance = () => {
                 <div className="balance-firstCard-inner">
                   <img src={RoxoCoin} alt="roxo" width="100px" height="100px" />
                   <p>
-                    Token Balance <br />
+                  <span className="token-main-headings">  Token Balance </span> <br />
                     17832.12 ROXO
                   </p>
                 </div>
-                <h6>Token value in</h6>
+            <p className="token-valueIn"><span className="token-sub-headings"> Token value in </span></p>
                 <div className="token-value">
                   <p>
                     3223
                     <br />
                     USD
                   </p>
-                  <p>
+                  <p className="ETH-style">
                     0.731
                     <br />
                     ETH
                   </p>
-                  <p>
+                  <p className="BTC-style">
                     0.12231
                     <br />
                     BTC
@@ -108,13 +108,13 @@ const TokenBalance = () => {
           <div className="thirdCard-main">
             <div className="third-card-set">
               <div className="thirdCard-backColor">
-                <h5>NFTs balance</h5>
+              <span className="token-main-headings"> <p>NFTs balance</p> </span>
                 <div className="balance-thirdCard-data">
-                  <h6>Total NFTs OWN:</h6>
+                  <p><span className="token-sub-headings"> Total NFTs OWN: </span></p>
                   <p>300</p>
                 </div>
                 <div className="balance-thirdCard-data">
-                  <h6>Total value:</h6>
+                  <p> <span className="token-sub-headings"> Total value: </span></p>
                   <p>
                     2.31 ETH <br /> ($8733.12)
                   </p>
@@ -136,35 +136,35 @@ const TokenBalance = () => {
               <div className="balance-secondCard-inner">
                 <img src={RoxoCoin} alt="roxo" width="100px" height="100px" />
                 <p>
-                  Token Coins <br />
+                <span className="token-main-headings">     Token Coins  </span><br />
                   17832.12 ROXO
                 </p>
                 <button className="convert-button-secondCard">Convert</button>
               </div>
               <div className="global-rank">
-                <h6>Global Rank</h6>
+                <p> <span className="token-sub-headings">Global Rank </span></p>
                 <p>3</p>
               </div>
               <div className="balance-stats-button">
                 <button> Stats</button>
               </div>
               <div className="stat-fields">
-                <h6>Total Score:</h6>
+                <p> <span className="token-sub-headings">Total Score:</span></p>
                 <p>27482</p>
               </div>
 
               <div className="stat-fields">
-                <h6>Total Races:</h6>
+                <p><span className="token-sub-headings">Total Races:</span></p>
                 <p>1322</p>
               </div>
 
               <div className="stat-fields">
-                <h6>Race Wons:</h6>
+                <p> <span className="token-sub-headings">Race Wons: </span></p>
                 <p>1933</p>
               </div>
 
               <div className="stat-fields">
-                <h6>Race Loses:</h6>
+                <p> <span className="token-sub-headings">Race Loses: </span></p>
                 <p>339</p>
               </div>
             </div>

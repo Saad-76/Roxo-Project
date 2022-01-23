@@ -1,6 +1,7 @@
 import React from "react";
 import "./connectWallet.css";
 import GAME from "../Assests/GAME.jpg"
+import {ImCopy} from "react-icons/im"
 
 
 const ConnectWallet = () => {
@@ -27,9 +28,10 @@ const ConnectWallet = () => {
           <h6>Public Address:</h6>
         </div>
         <div>
-          <p> 0x000000000000000000000000000000000 </p>
+          <p> 0x000000000000000000000000000000000 </p> 
         </div>
-        <div>
+       <button className="copy-icon-connect"> <ImCopy size={20}/> </button>
+         <div>
           <button className="wallet-connected-button-style" >Wallet Connected</button>
         </div>
       </div>

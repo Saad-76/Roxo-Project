@@ -41,9 +41,12 @@
     width: 100%;
     font-weight: bold;
     border-radius: 12px;
-    color: #1c1e21;
-  
-    background-color: #e4e6eb;
+    color: white;
+    font-weight: bold;
+
+    background: rgb(222,153,33);
+    background: linear-gradient(90deg, rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);   
+       border:none;  
     border:none;
 }
 .earning-modal-size{

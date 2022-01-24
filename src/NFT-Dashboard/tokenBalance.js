@@ -49,7 +49,8 @@ const TokenBalance = () => {
 
           <div className="convert">
             <img src={Convert} width="40px" height="40px" />
-            <button className="convert-heading"   >Convert</button>
+            <button className="convert-heading"  data-bs-toggle="modal"
+              data-bs-target="#convertModal" >Convert</button>
           </div>
 
         </div>

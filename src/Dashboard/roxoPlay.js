@@ -5,6 +5,7 @@ import GameSlider2 from "../Assests/GameSlider2.jpeg";
 import { GiPlainCircle } from "react-icons/gi";
 import { BsCoin } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import GameCoin from "../Assests/GameCoin.png"
 
 
 const RoxoPlay = () => {
@@ -31,7 +32,7 @@ const RoxoPlay = () => {
 
               <div>
                 <p>
-                  <BsCoin /> 8.7 M
+                  <img src={GameCoin} alt="gamecoin" width="25px" height="25px" /> 8.7 M
                   <br /> <b> Total Earnings </b>
                 </p>
               </div>

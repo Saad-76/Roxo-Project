@@ -42,6 +42,8 @@
     padding: 6px 18px;
     /* margin: 4% 0; */
     color: #1c1e21;
+    outline: none;
+
     background-color: #e4e6eb;
     border: none;
     border-radius: 12px;
@@ -54,6 +56,8 @@
         /* margin: 18px 0px; */
         padding: 6px 18px;
         /* margin: 4% 0; */
+        outline: none;
+
         color: #1c1e21;
         background-color: #e4e6eb;
         border: none;
@@ -73,6 +77,8 @@
         color: #1c1e21;
         background-color: #e4e6eb;
         border: none;
+        outline: none;
+
         border-radius: 12px;
         width: 100%;
         
@@ -84,6 +90,8 @@
             background-color: #e4e6eb;
             border: none;
             border-radius: 12px;
+            outline: none;
+
             width: 100%;
             
             }
@@ -94,6 +102,8 @@
                 background-color: #e4e6eb;
                 border: none;
                 border-radius: 12px;
+                outline: none;
+
                 width: 100%;
             }
             .signup-gender-inputs{

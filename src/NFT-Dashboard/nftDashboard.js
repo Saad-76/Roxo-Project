@@ -8,6 +8,7 @@ import DepositeModal from "./depositeModal"
 import WithDrawModal from "./withDrawModal"
 import NewNftSlider from "./newNftSlider"
 import DashboardHeader from "../Dashboard/dashboardHeader"
+import ConvertModal from "./convertModal"
 // import MessageModal from "./messageModal"
 
 
@@ -24,6 +25,7 @@ const  NftDashboard=()=> {
             <TokenConverter/>
             {/* <NewNfts/> */}
             <DepositeModal/>
+            <ConvertModal/>
             {/* <MessageModal/> */}
             <WithDrawModal/>
             <NewNftSlider/>

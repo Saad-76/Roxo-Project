@@ -16,7 +16,7 @@ const WithDrawModal=()=> {
         <div class="modal-content">
          
         <div class="withDraw-modal-style">
-        <h6 className="withDrawModal-heading">WithDraw:</h6>
+        <h6 className="withDrawModal-heading">WithDraw</h6>
         
 
         <div className="withDraw-address">
@@ -26,7 +26,16 @@ const WithDrawModal=()=> {
 
         <div className="withDraw-network">
             <h6>Select Network: </h6>
-            <input className="withDraw-network-field" placeholder="Ensure the network is same while sending."/>
+        
+            <select
+            
+            className="withDraw-network-field" 
+            >
+      
+              <option selected>Ensure the network is same while sending.</option>
+              <option value="Customer">Ensure the network is same while sending</option>
+              <option value="Employee">Ensure the network is same while sending </option>
+            </select>
         </div>
 
         <div className="withDraw-Amount">

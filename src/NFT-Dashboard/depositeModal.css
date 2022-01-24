@@ -30,6 +30,8 @@ width: 64%;
 }
 .network-field{
     margin-left: 12px;
+    outline: none;
+
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
@@ -58,10 +60,13 @@ width: 64%;
     font-size: 15px;
     line-height: 1.8;
     font-family: monterserat;
+    outline: none;
+
 }
 .address-field{
     font-size: 15px;
     width: 52%;
+    outline: none;
 
     /* line-height: 1.8; */
     font-family: monterserat;
@@ -69,6 +74,7 @@ width: 64%;
 .minimumDeposite-field{
     font-size: 15px;
     line-height: 1.8;
+    outline: none;
     font-family: monterserat;
 }
 

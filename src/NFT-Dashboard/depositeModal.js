@@ -20,7 +20,7 @@ const DepositeModal=()=> {
         <div class="modal-content">
          
           <div class="modal-style deposit-modal-inner-height">
-        <h5 className="depositeModal-heading">Deposit:</h5>
+        <h5 className="depositeModal-heading">Deposit</h5>
         <div className="depositModal-makeSure" >
             <h6>Make Sure:</h6>
             <p>1. Send only ROXO to this deposit address.</p>
@@ -47,8 +47,8 @@ const DepositeModal=()=> {
             >
       
               <option selected>Ensure the network is same while sending.</option>
-              <option value="Customer">Customer</option>
-              <option value="Employee">Employee </option>
+              <option value="Customer">Ensure the network is same while sending</option>
+              <option value="Employee">Ensure the network is same while sending </option>
             </select>
           </div>
 

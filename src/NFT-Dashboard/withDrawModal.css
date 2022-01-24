@@ -41,7 +41,7 @@
     padding: 10px 12px;
     background-color: white;
     border-radius: 12px;
-    /* justify-content: center; */
+    justify-content: center;
 
     box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
 }
@@ -50,11 +50,18 @@
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
+    outline: none;
+
     
 border: none;
 width: 64%;
 }
 .withDraw-network-field{
+    font-size: 15px;
+    line-height: 1.8;
+    outline: none;
+
+    font-family: monterserat;
     margin-left: 32px;
     padding: 5px 12px;
     background-color: #e4e6eb ;
@@ -67,6 +74,8 @@ width: 64%;
     padding: 5px 12px;
     background-color: #e4e6eb ;
     border-radius: 12px;
+    outline: none;
+
     border: none;
 width: 64%;
 
@@ -75,7 +84,11 @@ width: 64%;
     margin-left: 12px;
     margin-top: 20px;
     padding: 5px 12px;
-    /* background-color: #e4e6eb ; */
+    /* background-color: #e4e6e
+    b ; */
+    
+    outline: none;
+
     border-radius: 12px;
 }
 .withDrawModal-button{

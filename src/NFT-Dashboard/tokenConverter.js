@@ -1,6 +1,8 @@
 import React from 'react'
 import Image3 from "../Assests/3.png"
 import Coin from "../Assests/Coin.jpg"
+import GameCoin from "../Assests/GameCoin.png"
+
 
 import {HiArrowSmRight, HiArrowSmLeft} from "react-icons/hi"
 import "./tokenConverter.css"
@@ -32,7 +34,7 @@ const TokenConverter=()=> {
 </div>
 
     <div className="col-md-6  convert-gameCoin-allData">
-    <img src={Coin} alt="Image3" height="80x" width="80px"/>
+    <img src={GameCoin} alt="Image3" height="80x" width="80px"/>
 <div className="game-coin-converter">
     <h6>Game Coin</h6>
     <p>778622</p>

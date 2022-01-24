@@ -67,8 +67,9 @@ border-top-left-radius: 12px;
       border-radius: 9px;
       /* justify-content: center; */
       align-items: center;
+      font-weight: 600;
       /* color: #f359ad; */
-      background-color: #f359ad;
+      background-color: #f359ad87;
     }
     .text-login-second{
       margin: 10px;
@@ -76,11 +77,13 @@ border-top-left-radius: 12px;
       font-size: 11px;
       padding-left: 6px;
       border-radius: 9px;
+      font-weight: 600;
+
       display: flex;
       justify-content: center;
       align-items: center;
       /* color: #f359ad; */
-      background-color: #f359ad;
+      background-color: #f359ad87;
     }
 
     .input-password-login{

@@ -40,8 +40,8 @@ const RoxoPlay = () => {
           </div>
 
           <div className="button-display-style">
-            <button className="checkEarnings-inner-button"  data-bs-toggle="modal"
-                data-bs-target="#EarningModal">Check Your Earnings</button>
+          <button className="checkEarnings-inner-button" >  <Link to="/nftdashboard" >Check Your Earnings</Link></button> 
+
           </div>
         </div>
 
@@ -51,7 +51,8 @@ const RoxoPlay = () => {
             <h3 className="second-card-heading">Coming Soon...</h3>
           </div>
           <div className="button-display-style">
-          <button className="checkEarnings-inner-button" >  <Link to="/nftdashboard" >Check Your Earnings</Link></button> 
+          <button className="checkEarnings-inner-button"  data-bs-toggle="modal"
+                data-bs-target="#EarningModal">Check Your Earnings</button>
           </div>
         </div>
       </div>

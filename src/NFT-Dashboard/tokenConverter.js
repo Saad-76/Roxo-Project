@@ -44,7 +44,7 @@ const TokenConverter=()=> {
 </div>
 </div>
 <div className="token-convert-button">
-<button className="token-convert-button-style" >Convert </button>
+<button className="token-convert-button-style" >CONVERT </button>
 </div>
 
 

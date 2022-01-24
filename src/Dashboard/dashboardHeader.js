@@ -15,10 +15,18 @@ import Glowcoin from "../Assests/glowCoin.png";
 
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
+import PDF from "../Assests/PDF.pdf"
 
 
 
 const  DashboardHeader=()=> {
+
+  const  onResumeClick=()=> {
+    window.open(PDF);
+  }
+
+
+
   const slideOpen = () => {
     document.getElementById("mySidebar").style.display = "block";
   };
@@ -94,7 +102,7 @@ const  DashboardHeader=()=> {
               <img src={careerIcon} height="20px" />
               Careers
             </Link>
-            <Link>
+            <Link onClick={onResumeClick}>
               <img src={WhiteIcon} height="20px" />
               White Paper
             </Link>
@@ -185,7 +193,7 @@ const  DashboardHeader=()=> {
                 <img src={contactIcon} height="20px" />
                 Contact Us
               </Link>
-              <Link>
+              <Link onClick={onResumeClick}>
                 <img src={WhiteIcon} height="20px" />
                 White Paper
               </Link>

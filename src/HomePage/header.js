@@ -16,9 +16,17 @@ import Glowcoin from "../Assests/glowCoin.png";
 import { AiFillCaretDown, AiFillCaretLeft } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
 import Login from "./login";
+import PDF from "../Assests/PDF.pdf"
 
 
 const Header = () => {
+
+
+  const  onResumeClick=()=> {
+    window.open(PDF);
+  }
+
+
   // -------------Modal Code--------------
   const [modalShow, setModalShow] = useState(false);
 
@@ -86,7 +94,7 @@ const Header = () => {
               <img src={careerIcon} height="20px" />
               Careers
             </Link>
-            <Link>
+            <Link onClick={onResumeClick}>
               <img src={WhiteIcon} height="20px" />
               White Paper
             </Link>
@@ -179,7 +187,7 @@ const Header = () => {
                 <img src={contactIcon} height="20px" />
                 Contact Us
               </Link>
-              <Link>
+              <Link onClick={onResumeClick}>
                 <img src={WhiteIcon} height="20px" />
                 White Paper
               </Link>

@@ -60,20 +60,27 @@ border-top-left-radius: 12px;
     .text-login{
       margin: 10px;
       display: flex;
-      justify-content: center;
+      width: 20%;
+      padding-left: 8px;
+      font-size: 10px;
+      /* margin-left: 12px; */
+      border-radius: 9px;
+      /* justify-content: center; */
       align-items: center;
-      /* color: #f359ad ; */
-      background-color:#f359ad ;
+      /* color: #f359ad; */
+      background-color: #f359ad;
     }
     .text-login-second{
       margin: 10px;
       outline: none;
-
+      font-size: 11px;
+      padding-left: 6px;
+      border-radius: 9px;
       display: flex;
       justify-content: center;
       align-items: center;
-      /* color: #f359ad ; */
-      background-color:#f359ad ;
+      /* color: #f359ad; */
+      background-color: #f359ad;
     }
 
     .input-password-login{

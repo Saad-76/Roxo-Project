@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 import SignUp from "./signUp";
 import LoginForm from "../Assests/LoginForm.jpeg"
+import {AiFillStar} from "react-icons/ai"
 
 
 const Login = (props) => {
@@ -72,8 +73,8 @@ const Login = (props) => {
 Members Log in                    </h3>
                   </div>
                   <div className="login-input-fiedls">
-                    <p className="text-login"> Lorem ipsum dolor sit amet, consectetur </p>
-                    <p className="text-login-second">Lorem ipsum dolor sit amet  adipiscing </p>
+                    <p className="text-login">*Important  </p>
+                    <p className="text-login-second">Dear users kindly use the same email and password that you used during game registration. </p>
 
                     <input
                       className="input-email-login"

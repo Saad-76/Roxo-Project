@@ -25,14 +25,14 @@ const ConnectWallet = () => {
 <div className="background-connectWallet">
       <div className="connect-address-section">
         <div>
-          <h6>Public Address:</h6>
+          <p> <b> Public Address:</b></p>
         </div>
         <div>
-          <p> 0x000000000000000000000000000000000 </p> 
+          <p> 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 </p> 
         </div>
        <button className="copy-icon-connect"> <ImCopy size={20}/> </button>
          <div>
-          <button className="wallet-connected-button-style" >Wallet Connected</button>
+          <button className="wallet-connected-button-style" ><b> Wallet Connected </b></button>
         </div>
       </div>
 

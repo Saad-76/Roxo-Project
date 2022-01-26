@@ -1,9 +1,12 @@
 import React from 'react';
 
 const  PublicRoute=()=> {
-  return (<div>
+  return (
+  
+  <div>
 
-  </div>);
+  </div>
+  );
 }
 
 export default PublicRoute;

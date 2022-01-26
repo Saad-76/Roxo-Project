@@ -25,14 +25,15 @@ try {
   await window.ethereum.request({ method: 'eth_requestAccounts' });
 
   const provider =  new ethers.providers.Web3Provider(window.ethereum);
+ 
   const signer = provider.getSigner();
   const address = await signer.getAddress();
   const ens = await provider.lookupAddress(address);
-  const avatar = await provider.getAvatar(ens);
+  // const avatar = await provider.getAvatar(ens);
 
   setAccount({
     address,
-    avatar,
+    // avatar,
     ens
   });
 
@@ -46,7 +47,7 @@ try {
   return (
 <>
 {account.address ? (
-    <p color='black'>{account.address}</p>
+    <p color='black'> MetaMask wallet address is : {account.address}</p>
   ) : (
     <button onClick={connectWallet}>Connect wallet</button>
   )}

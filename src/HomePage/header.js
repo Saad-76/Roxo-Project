@@ -49,7 +49,7 @@ const Header = () => {
             {/* <h5>ROXO</h5> */}
           </div>
         </Link>
-        <Link>Our Games</Link>
+        <Link to="/ourgames">Our Games</Link>
         <Link>News</Link>
         <Link>
           <div className="hover-coin">
@@ -90,7 +90,7 @@ const Header = () => {
               <img src={contactIcon} height="20px" />
               Support
             </Link>
-            <Link>
+            <Link to="/careers">
               <img src={careerIcon} height="20px" />
               Careers
             </Link>
@@ -98,7 +98,7 @@ const Header = () => {
               <img src={WhiteIcon} height="20px" />
               White Paper
             </Link>
-            <Link>
+            <Link to="/contactus">
               <img src={contactIcon} height="20px" />
               Contact Us
             </Link>

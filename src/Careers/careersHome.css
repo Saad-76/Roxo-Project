@@ -1,0 +1,77 @@
+.career-home-background{
+    /* background: url("../Assests/back.jpg"); */
+    /* background: url("../Assests/CareersBanner.jpg"); */
+    background: url("../Assests/CareersBg.jpg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-position-y: -6rem;
+
+}
+.home-content-style{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+padding-top: 8%;
+
+justify-content: center;
+
+}
+.careers-button-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.locations-button-inner-style{
+ 
+    /* padding: 6px 18px; */
+    padding: 10px 52px;
+
+  font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+
+  color: white;
+  font-weight: bold;
+  margin-top: 4%;
+  outline: none;
+background: transparent;
+border: 1px solid white;
+    /* background: rgb(222,153,33);
+    background: linear-gradient(90deg, rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);    */
+       /* border:none; */
+}
+.locations-button-inner-style-second{
+ 
+    /* padding: 6px 18px; */
+    padding: 10px 52px;
+    font-size: 20px;
+
+    margin-top: 4%;
+
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 62px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+    /* background: rgb(222,153,33);
+    background: linear-gradient(90deg, rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);      border:none; */
+}
+.locations-button-inner-style-second:hover{
+  background-color: white;
+  color: black;
+}
+.locations-button-inner-style:hover{
+  background-color: white;
+  color: black;
+}
+.location-heading-style{
+    font-size: 40px;
+}

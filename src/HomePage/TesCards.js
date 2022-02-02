@@ -20,6 +20,8 @@ const TesCards = () => {
       <img src={Controllers} height='80'/>
       <h1 className="game-heading-cards" >Games</h1>
     </div>
+
+
     <div className="tes-card" id="containe">
       <button onClick={Leftscrol} className="tes-btn">
         <FaArrowLeft size={22.5} />
@@ -27,6 +29,7 @@ const TesCards = () => {
       <button onClick={Rightscrol} className="tes-btn1">
         <FaArrowRight size={22.5} />
       </button>
+      
 <div className="cards-style-test-data" >
       <Tescards
         tesicon={<img src={GameSlider1}  height='150px'/>}

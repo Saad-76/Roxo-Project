@@ -1,0 +1,35 @@
+.path-header-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.path-heading-style{
+ text-align: center;
+ padding: 40px 0px ;
+}
+.sections-style{
+padding-left: 30px;}
+
+.haed-nav-btns a {
+    /* display: inline-block; */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* font-size: 12px; */
+      /* font-weight: 500; */
+  }
+  
+  .haed-nav-btns a::after {
+    content: "";
+    display: block;
+    width:10;
+    height: 1px;
+    background: rgb(189, 39, 39);
+    transition: width 0.4s ease-in;
+  }
+  .haed-nav-btns a:focus::after {
+    width: 100%;
+    /* border-bottom: 2px solid rgb(255, 255, 255); 
+      transition: width .4s ease-in; */
+  }

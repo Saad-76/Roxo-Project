@@ -9,11 +9,13 @@ import Slider from "../HomePage/slider"
 const OurGames=()=> {
   return (
       <>
+      <div className="background-color-main">
       <Header/>
       <Slider/>
 <FirstGame/>
 <SecondGame/>
 <Footer/>
+</div>
       </>
   );
 }

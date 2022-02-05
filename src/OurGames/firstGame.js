@@ -21,7 +21,7 @@ const FirstGame = () => {
               having fun.
             </p>
           </div>
-          <div className="col-md-4 firstGame-image-section">
+          <div className=" firstGame-image-section">
 
 
 
@@ -59,7 +59,7 @@ const FirstGame = () => {
 
 
           </div>
-          <div className="col-md-2"></div>
+          {/* <div className="col-md-2"></div> */}
 
         </div>
       </div>

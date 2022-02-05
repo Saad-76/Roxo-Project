@@ -14,11 +14,12 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="row ">
-          <div className="col-md-4">
-            <img src={FooterLeft} height="450px" width="450px" />
+    <div className="footer-display-One">
+      <div className="col-md-12 d-flex ">
+          <div className="">
+            <img className="footer-left-side" src={FooterLeft} height="450px" width="450px" />
           </div>
-        <div className="col-md-4">
+        <div className="">
           <div className="  footer-icons-style">
             <div>
               <div className="roxo-footer">
@@ -47,10 +48,43 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-4">
-          <img src={FooterRight} height="450px" width="450px" />
+        <div className=" ">
+          <img className="footer-right-side" src={FooterRight} height="450px" width="450px" />
         </div>
       </div>
+      </div>
+
+<div className="resp-footer-display">
+      <div className="col-md-12">
+          <div className="  footer-icons-style">
+            <div>
+              <div className="roxo-footer">
+                <img src={Roxo} alt="roxo" width="50px" height="50px" />{" "}
+                <h6>ROXO</h6>
+              </div>
+              <Link>
+                {" "}
+                <img src={blogIcon} height="35px" />
+              </Link>
+              <Link>
+                <img src={discordIcon} height="35px" />
+              </Link>
+              <Link>
+                <img src={twitterIcon} height="35px" />
+              </Link>
+              <Link>
+                <img src={teleIcon} height="35px" />
+              </Link>
+            </div>
+            <p className="footer-copyright">
+              Copyright @2022 ROXO, All rights reserved.
+            </p>
+            <p className="terms-footer">
+              Terms Of Service | Privacy Policy | Contact Us
+            </p>
+          </div>
+        </div>
+        </div>
     </>
   );
 };

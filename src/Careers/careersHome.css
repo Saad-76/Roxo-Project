@@ -3,7 +3,8 @@
     /* background: url("../Assests/CareersBanner.jpg"); */
     background: url("../Assests/CareersBg.jpg");
 
-
+    /* background-color: #3a3a3a; */
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;

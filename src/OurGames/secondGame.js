@@ -8,13 +8,17 @@ const SecondGame = () => {
   return (
     <div>
       <div className="secondGame-style">
+      <div className="container">
+
         <div className="col-md-12 secondGame-main-style">
-          <div className="col-md-4 secondGame-image-section">
-              <div className="col-md-2"></div>
+        {/* <div className="col-md-2">
+              </div> */}
+          <div className=" secondGame-image-section">
+             
            
           <div className=" secondGameCarousel-style">
         <div className="bg-color ">
-          <Carousel>
+          <Carousel className="inner-style">
         
             {/* <Carousel.Item className="carousel-item-style">
               <img
@@ -62,6 +66,7 @@ const SecondGame = () => {
               challenge, and interaction.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

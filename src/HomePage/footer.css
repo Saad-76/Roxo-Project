@@ -72,3 +72,20 @@ justify-content: flex-end; */
     flex-direction: row;
     flex-wrap: wrap;
 }
+.resp-footer-display{
+    display: none;
+}
+@media only screen and (max-width: 900px) {
+   /* .footer-left-side{
+       display: none;
+   }
+   .footer-right-side{
+       display: none;
+   } */
+   .footer-display-One{
+       display: none;
+   }
+   .resp-footer-display{
+       display: block;
+   }
+  }

@@ -26,7 +26,9 @@
     align-items: center;
   
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+  margin-right: 120px;
+  }
   .firstGame-image-section img{
     /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6); */
   
@@ -48,13 +50,19 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 40px;
+      /* margin-top: 40px; */
   
     }
-    .firstGame-image-section{
-      margin-top: 40px;
-  
-    }
+    .firstGame-image-section {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-right: 11px;
+      margin-left: 32px;
+  }
+  .image-height {
+    height: 371px;
+}
   }
   /* ----------------------------------------------------------------Slider Code---------------------------- */
   .firstGameCarousel-style{

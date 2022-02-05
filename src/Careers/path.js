@@ -4,10 +4,41 @@ import { Link } from "react-router-dom";
 import IconicImage from "../Assests/IconicImage.jpg"
 
 const Path = () => {
+  const slideOpen = () => {
+    document.getElementById("mySidebar").style.display = "block";
+  };
+
+  const slideClose = () => {
+    document.getElementById("mySidebar").style.display = "none";
+  };
   return (
     <>
       <h3 className="path-heading-style">Choose Your Path</h3>
-      <div className="container">
+
+{/* <div  className="navbar-toggler"
+            type="button"
+             onClick={slideOpen}>Open</div>
+
+<div className="collapse-navbar " id="mySidebar">
+  <p onClick={slideClose} >Close</p>
+  <Link to="/engineering"><p >Engineering</p></Link>
+  <Link to="/design"><p>Design & Production </p></Link>
+  <Link to="/art"><p>Art & Animation </p></Link>
+  <Link to="/operation"><p>Operations & Marketing </p></Link>
+  <Link to="/other"><p>Others </p></Link>
+
+</div> */}
+
+
+
+
+
+
+
+
+
+
+      <div className="container path-header-main">
         <div className="col-md-12 path-header-style haed-nav-btns">
           <div className="sections-style">
           <Link to="/engineering">   <img src={IconicImage} alt="IconicImage" width="150px" height="150px" />
@@ -31,6 +62,7 @@ const Path = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

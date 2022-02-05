@@ -16,7 +16,7 @@ const Slider=()=> {
         <div>
       <div className=" carousel-style">
         <div className="bg-color ">
-          <Carousel>
+          <Carousel className="inner-style">
             {/* <Carousel.Item>
               <img
                 className="d-block image-height  w-100"
